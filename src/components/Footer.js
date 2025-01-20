@@ -13,7 +13,7 @@ const Footer = () => {
                         <Link to="/">
                             <img src={logo} className="w-11" alt="footerlogo" />
                         </Link>
-                        <div id="footer-text" className="text-justify">
+                        <div id="footer-text" className="text-justify font-oswald">
                             Perception 2K25: Igniting Innovation at Odisha University of Technology & Research
                         </div>
                     </div>

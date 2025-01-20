@@ -9,9 +9,12 @@ module.exports = {
         'md': '880px',
         'lg' :'1025px'
       },
+      fontFamily: {
+        oswald: ['Oswald', 'sans-serif'],
+        ethnocentric: ['Ethnocentric', 'sans-serif'],
+      },
     },
   },
   plugins: [
   ],
 }
-

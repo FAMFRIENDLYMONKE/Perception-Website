@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"); /*Inter font*/
+@font-face {
+  font-family: 'Ethnocentric';
+  src: url('./assets/fonts/ethnocentric\ rg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   background-color: #000212;
@@ -17,7 +23,7 @@ body {
 #footer-text {
   max-width: 527px;
   color: #c8cddc;
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif; */
   font-weight: 500;
   size: 16px;
   line-height: 21.6px;
