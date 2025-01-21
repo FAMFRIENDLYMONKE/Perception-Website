@@ -21,7 +21,7 @@ const Events = () => {
                 <img
                   src={event.image}
                   alt={event.eventName}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-[15rem] object-cover p-2"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold text-purple-400 mb-2">
@@ -56,7 +56,7 @@ const Events = () => {
           <h2 className="text-2xl font-mono text-gray-200">Thursday,29th January</h2>
         </div>
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {events29.map((event, index) => (
               <div
                 key={index}
@@ -65,7 +65,7 @@ const Events = () => {
                 <img
                   src={event.image}
                   alt={event.eventName}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-[15rem] object-cover p-2"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold text-purple-400 mb-2">
@@ -109,7 +109,7 @@ const Events = () => {
                 <img
                   src={event.image}
                   alt={event.eventName}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-[15rem] object-cover p-2"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold text-purple-400 mb-2">

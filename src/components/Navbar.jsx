@@ -174,7 +174,7 @@ const Navbar = ({ name }) => {
                         </div>
                         <nav className="flex flex-col p-4">
                             <button
-                                onClick={() => handleNavigation("section2")}
+                                onClick={() => navigate("/events")}
                                 className="py-3 px-4 text-white hover:bg-purple-400 rounded-md"
                             >
                                 Explore Events
