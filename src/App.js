@@ -7,6 +7,7 @@ import SignIn from "./components/SignIn";
 import Register from "./components/Register";
 import Profile from "./pages/Profile";
 import { useState } from "react";
+import EventPage from "./pages/EventPage";
 
 function App() {
   const [name, setName] = useState("");
@@ -16,6 +17,7 @@ function App() {
         <Route path="" element={<Home />} />
         <Route path="register" element={<Register />} />
         <Route path="signin" element={<SignIn />} />
+        <Route path="/events" element={<EventPage/>} />
         <Route
           path="profile"
           element={
