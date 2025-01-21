@@ -1,0 +1,29 @@
+export const sponsers =[
+    {
+        name:"Sponser1",
+    },
+    {
+        name:"Sponser2",
+    },
+    {
+        name:"Sponser3",
+    },
+    {
+        name:"Sponser4",
+    },
+    {
+        name:"Sponser5",
+    },
+    {
+        name:"Sponser6",
+    },
+    {
+        name:"Sponser7",
+    },
+    {
+        name:"Sponser8",
+    },
+    {
+        name:"Sponser9",
+    },
+]

@@ -1,20 +1,19 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
-      screens: {  
-        'md': '880px',
-        'lg' :'1025px'
-      },
       fontFamily: {
         oswald: ['Oswald', 'sans-serif'],
         ethnocentric: ['Ethnocentric', 'sans-serif'],
+        'martian-sunrise': ['Martian Sunrise', 'sans-serif'],
       },
     },
   },
   plugins: [
+    require('daisyui'),
   ],
-}
+};
