@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'; 
-import { Link } from 'react-scroll'; 
-import { NavLink, useNavigate, useLocation } from "react-router-dom"; 
+
+import { NavLink, useNavigate, useLocation,Link } from "react-router-dom"; 
 import logo from '../assets/logo.png'; 
 // import { GrMenu } from "react-icons/gr";
 
@@ -105,7 +105,9 @@ const Navbar = ({ name }) => {
                     <ul className="nav-list hidden md:flex space-x-8 font-bold">
                         <li>
                             <button
-                                onClick={() => handleNavigation("section2")}
+                                
+                                onClick={() => navigate("/events")}
+                                
                                 className="nav-links block text-white rounded hover:bg-gray-900 md:bg-transparent cursor-pointer"
                             >
                                 Explore Events
