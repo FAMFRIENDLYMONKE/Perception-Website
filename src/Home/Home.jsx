@@ -14,6 +14,7 @@ function Home() {
         <Section1/>
         <SponserMarque/>
         <About/>
+        <br />
         <StatisticMarque/>
         <Merchandise/>
         <OurTeam/>

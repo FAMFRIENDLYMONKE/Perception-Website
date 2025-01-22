@@ -56,6 +56,7 @@ import ZairzaWearableTech from './ZairzaWearableTech.jpg';
 import kopchaa from './sponsors/kopchaa.png';
 
 // Export all images
+import tshirt from './tshirt-front-back.png';
 export {
   BountyHunter,
   CompetitiveProgramming,
@@ -96,5 +97,7 @@ export {
   ZairzaRescueRangers,ZairzaSensorSync,
   ZairzaWearableTech,
 
-  kopchaa
+  kopchaa,
+
+  tshirt
 };

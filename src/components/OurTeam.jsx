@@ -6,7 +6,7 @@ function OurTeam() {
   return (
     <div className="mx-2 mt-10">
       <div className="flex flex-col items-center justify-center">
-        <h3 id="heading" className="text-2xl lg:text-xl font-semibold">
+        <h3 id="heading" className="text-6xl max-lg:text-5xl font-semibold font-martian-sunrise">
           Our team
         </h3>
         <br />
