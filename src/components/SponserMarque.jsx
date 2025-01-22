@@ -38,7 +38,7 @@ function SponserMarque() {
         >
           <Marquee speed={100} loop={0}>
             {sponsers.map((sponser, index) => (
-              <Sponser key={index} name={sponser.name} />
+              <Sponser key={index} logo={sponser.logo} name={sponser.name} />
             ))}
           </Marquee>
         </div>

@@ -1,29 +1,23 @@
+import kopchaa from './assets/sponsors/kopchaa.png'
 export const sponsers =[
     {
-        name:"Sponser1",
+        logo:kopchaa,
+        name:"KOP CHAA",
     },
     {
-        name:"Sponser2",
+        logo:"",
+        name:"COMING SOON",
     },
     {
-        name:"Sponser3",
+        logo:"",
+        name:"COMING SOON",
     },
     {
-        name:"Sponser4",
+        logo:"",
+        name:"COMING SOON",
     },
     {
-        name:"Sponser5",
-    },
-    {
-        name:"Sponser6",
-    },
-    {
-        name:"Sponser7",
-    },
-    {
-        name:"Sponser8",
-    },
-    {
-        name:"Sponser9",
+        logo:"",
+        name:"COMING SOON",
     },
 ]

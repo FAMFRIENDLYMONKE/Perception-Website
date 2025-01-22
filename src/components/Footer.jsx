@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
-import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaWikipediaW, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -20,18 +20,18 @@ const Footer = () => {
                     <ul className="flex items-center space-x-3 mt-4 margin-auto">
                         <li>
                             <a
-                                href="https://twitter.com"
-                                title="Twitter"
+                                href="https://en.wikipedia.org/wiki/Odisha_University_of_Technology_and_Research"
+                                title="Wikipedia"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
                             >
-                                <FaTwitter className="w-4 h-4" />
+                                <FaWikipediaW className="w-4 h-4" />
                             </a>
                         </li>
                         <li>
                             <a
-                                href="https://facebook.com"
+                                href="https://www.facebook.com/OUTRuniversity/"
                                 title="Facebook"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -42,7 +42,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <a
-                                href="https://instagram.com"
+                                href="https://www.instagram.com/outruniversity/"
                                 title="Instagram"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <a
-                                href="https://linkedin.com"
+                                href="https://www.linkedin.com/school/outruniversity/"
                                 title="LinkedIn"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -68,77 +68,57 @@ const Footer = () => {
                 {/* Footer Right */}
                 <div id="footer-right" className="flex flex-wrap gap-12 justify-end text-right">
                     <div>
-                        <p className="text-sm font-semibold tracking-widest uppercase">Company</p>
                         <ul className="mt-4 space-y-2">
                             <li>
                                 <a
-                                    href="#"
+                                target="_blank"
+                                    href="https://www.outr.ac.in"
                                     className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
                                 >
-                                    About
+                                    College Website
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                target="_blank"
+                                    href="https://www.perceptionoutr.in"
                                     className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
                                 >
-                                    Features
+                                    Perception 2k24
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                target="_blank"
+                                    href="mailto:secretarytechnical@gmail.com"
                                     className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
                                 >
-                                    Works
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
-                                >
-                                    Career
+                                    Contact Us
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <p className="text-sm font-semibold tracking-widest uppercase">Help</p>
                         <ul className="mt-4 space-y-2">
                             <li>
                                 <a
-                                    href="#"
+                                    target="_blank"
+                                    href="https://maps.app.goo.gl/Vrb3Gwfb9h7vJGoC7"
                                     className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
                                 >
-                                    Customer Support
+                                    How To Reach
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    target="_blank"
+                                    href=""
                                     className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
                                 >
-                                    Delivery Details
+                                    Become our Partner
                                 </a>
                             </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
-                                >
-                                    Terms & Conditions
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
-                                >
-                                    Privacy Policy
-                                </a>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>

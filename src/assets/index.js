@@ -14,6 +14,7 @@ import AerospaceTech from './Aerospacetech.jpg';
 import AerospaceTinyWhoop from './AerospacetinyWhoop.webp';
 import AerospaceWingman from './Aerospacewingman.jpg';
 
+
 // BiozoEvents (example placeholder as no images are listed in this folder)
 
 // CiviconEvents
@@ -47,6 +48,12 @@ import ZairzaPVPGaming from './ZairzaPVPGaming.jpg';
 import ZairzaRescueRangers from './ZairzaRescuerangers.webp';
 import ZairzaSensorSync from './ZairzaSensorSync.jpg';
 import ZairzaWearableTech from './ZairzaWearableTech.jpg';
+
+//developer-imgs
+
+
+//sopsor images
+import kopchaa from './sponsors/kopchaa.png';
 
 // Export all images
 export {
@@ -88,4 +95,6 @@ export {
   ZairzaPVPGaming,
   ZairzaRescueRangers,ZairzaSensorSync,
   ZairzaWearableTech,
+
+  kopchaa
 };
