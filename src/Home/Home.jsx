@@ -4,7 +4,8 @@ import About from '../components/About'
 import Section1 from '../components/Section1'
 import SponserMarque from '../components/SponserMarque'
 import Navbar from '../components/Navbar'
-import Merch from '../components/Merch'
+import Merchandise from '../components/Merchandise'
+import StatisticMarque from '../components/StatisticMarque'
 
 function Home() {
   return (
@@ -13,7 +14,8 @@ function Home() {
         <Section1/>
         <SponserMarque/>
         <About/>
-        <Merch/>
+        <StatisticMarque/>
+        <Merchandise/>
         <OurTeam/>
     </div>
   )

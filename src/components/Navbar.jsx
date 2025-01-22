@@ -133,8 +133,16 @@ const Navbar = ({ name }) => {
                         </li>
                         <li>
                             <button
+                                onClick={() => navigate("/merch")}
+                                className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
+                            >
+                                Merch
+                            </button>
+                        </li>
+                        <li>
+                            <button
                                 onClick={() => handleNavigation("section5")}
-                                className="nav-links block text-white rounded hover:text-gray-400 md:bg-transparent cursor-pointer"
+                                className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
                             >
                                 Brochure
                             </button>
@@ -158,7 +166,7 @@ const Navbar = ({ name }) => {
                             <h3 id="heading" className="mt-4 ml-4 text-lg font-bold">MENU</h3>
                             <button
                                 onClick={closeMenu}
-                                className="mt-4 mr-4 rounded-full hover:bg-gray-800"
+                                className="mt-2 mr-2 rounded-full hover:bg-gray-800"
                             >
                                 <svg
                                     className="w-8 h-8"

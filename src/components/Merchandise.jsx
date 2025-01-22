@@ -1,6 +1,6 @@
 import React from "react";
 
-function Merch() {
+function Merchandise() {
   return (
     <div className="w-full mt-10 min-h-[700px] flex flex-col-reverse lg:flex-row items-center justify-around lg:gap-0 gap-6">
       <div className="lg:w-[45%] w-[80%] my-auto flex flex-col items-center lg:block">
@@ -33,4 +33,4 @@ function Merch() {
   );
 }
 
-export default Merch;
+export default Merchandise;

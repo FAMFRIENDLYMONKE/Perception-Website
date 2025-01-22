@@ -5,6 +5,7 @@ import Home from "./Home/Home";
 import { Navigate, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Events from "./Pages/Events";
+import Merch from "./Pages/Merch";
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* <Route path="register" element={<Register />} />
       <Route path="signin" element={<SignIn />} /> */}
       <Route path="/events" element={<Events/>} />
-      <Route
+      <Route path="/merch" element={<Merch/>} />
+      {/* <Route
         path="profile"
         element={
           localStorage.getItem("authToken") ? (
@@ -24,7 +26,7 @@ function App() {
             <Navigate to="/signin" />
           )
         }
-      />
+      /> */}
     </Route>
   </Routes>
   );
