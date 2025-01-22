@@ -205,7 +205,7 @@ export const events29 = [
     "image": EnergyLineFollower
   },
   {
-    "eventName": "Bottle Rocket",
+    "eventName": "Water Rocket",
     "description": "An evening filled with cultural performances, music, and dance.",
     "date": "2025-02-17",
     "startTime": "7:00 PM",
@@ -215,7 +215,7 @@ export const events29 = [
     "image": AerospaceWaterpoweredbottleRocket
   },
   {
-    "eventName": "RC Airplane",
+    "eventName": "Airshow",
     "description": "An evening filled with cultural performances, music, and dance.",
     "date": "2025-02-17",
     "startTime": "7:00 PM",
@@ -225,7 +225,7 @@ export const events29 = [
     "image": Aerospace76105RCAirplane
   },
   {
-    "eventName": "Space Slingshot",
+    "eventName": "Slingshot",
     "description": "An evening filled with cultural performances, music, and dance.",
     "date": "2025-02-17",
     "startTime": "7:00 PM",

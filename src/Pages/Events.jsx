@@ -35,7 +35,7 @@ const Events = () => {
         {/* Wednesday, 28th January */}
         <div className="text-center py-5">
           <h2 className="text-2xl font-mono text-gray-200">
-            Wednesday, 28th January
+            Tuesday, 28th January
           </h2>
         </div>
         <div className="container mx-auto px-4">
@@ -83,7 +83,7 @@ const Events = () => {
         {/* Thursday, 29th January */}
         <div className="text-center py-5">
           <h2 className="text-2xl font-mono text-gray-200">
-            Thursday, 29th January
+          Wednesday, 29th January
           </h2>
         </div>
         <div className="container mx-auto px-4">
@@ -131,7 +131,7 @@ const Events = () => {
         {/* Friday, 30th January */}
         <div className="text-center py-5">
           <h2 className="text-2xl font-mono text-gray-200">
-            Friday, 30th January
+            Thursday, 30th January
           </h2>
         </div>
         <div className="container mx-auto px-4">
