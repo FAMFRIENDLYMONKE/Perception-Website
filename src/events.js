@@ -1,4 +1,4 @@
-import { BountyHunter, CompetitiveProgramming, Designovate, DigTheWeb, HumanLudo, PVPGaming, RescueRangers, SensorSyncSymposium, WearableTech } from "./assets"
+import { Aerospace76105RCAirplane, AerospaceSlingshotTech, AerospaceTech, AerospaceTinyWhoop, AerospaceWaterpoweredbottleRocket, AerospaceWingman, BountyHunter, CiviconBridgeMaking, CiviconCanvaDesign, CiviconEscapeRoom, CiviconWheresTheMystery, CompetitiveProgramming, Designovate, DigTheWeb, EnergyCircuitCraft, EnergyElectrovia, EnergyGameMania, EnergyLineFollower, HumanLudo, PVPGaming, RescueRangers, SAEFrameForge, SAELeadTheBeast, SensorSyncSymposium, SpectrumCirKit, SpectrumDesignAthon, SpectrumEditExpo, SpectrumGameCraft, SpectrumRoboSoccer, SpectrumSpecMoji, SpectrumTechMeme, SpectrumUncannyCodeQuest, WearableTech, ZairzaBountyHunter, ZairzaHumanLudo, ZairzaPVPGaming, ZairzaRescueRangers, ZairzaSensorSync, ZairzaWearableTech } from "./assets"
 
 export const events28 = [
   {
@@ -9,7 +9,7 @@ export const events28 = [
     "endTime": "6:00 PM",
     "clubName": "Zairza",
     "day": "Day 1",
-    "image": BountyHunter
+    "image": ZairzaBountyHunter
   },
   {
     "eventName": "Dig The Web",
@@ -28,8 +28,8 @@ export const events28 = [
     "startTime": "9:00 AM",
     "endTime": "12:00 PM",
     "clubName": "Zairza",
-    "day": "Day 2",
-    "image": HumanLudo
+    "day": "Day 1",
+    "image": ZairzaHumanLudo
   },
   {
     "eventName": "SensorSync Symposium",
@@ -38,8 +38,8 @@ export const events28 = [
     "startTime": "1:00 PM",
     "endTime": "4:00 PM",
     "clubName": "Zairza",
-    "day": "Day 2",
-    "image": SensorSyncSymposium
+    "day": "Day 1",
+    "image": ZairzaSensorSync
   },
   {
     "eventName": "Competitve Programming",
@@ -48,9 +48,69 @@ export const events28 = [
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "clubName": "Zairza",
-    "day": "Day 3",
+    "day": "Day 1",
     "image": CompetitiveProgramming
-  }
+  },
+  {
+    "eventName": "Cir-Kit",
+    "description": "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Spectrum",
+    "day": "Day 1",
+    "image": SpectrumCirKit
+  },
+  {
+    "eventName": "Design-A-Thon",
+    "description": "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Spectrum",
+    "day": "Day 1",
+    "image": SpectrumDesignAthon
+  },
+  {
+    "eventName": "Edit Expo",
+    "description": "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Spectrum",
+    "day": "Day 1",
+    "image": SpectrumEditExpo
+  },
+  {
+    "eventName": "Game Kraft",
+    "description": "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Spectrum",
+    "day": "Day 1",
+    "image": SpectrumGameCraft
+  },
+  {
+    "eventName": "Robo Soccer",
+    "description": "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Spectrum",
+    "day": "Day 1",
+    "image": SpectrumRoboSoccer
+  },
+  {
+    "eventName": "Spec-Moji",
+    "description": "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Spectrum",
+    "day": "Day 1",
+    "image": SpectrumSpecMoji
+  },
 ]
 
 export const events29 = [
@@ -61,7 +121,7 @@ export const events29 = [
     "startTime": "10:00 AM",
     "endTime": "6:00 PM",
     "clubName": "Zairza",
-    "day": "Day 1",
+    "day": "Day 2",
     "image": Designovate
   },
   {
@@ -71,8 +131,8 @@ export const events29 = [
     "startTime": "2:00 PM",
     "endTime": "5:00 PM",
     "clubName": "Zairza",
-    "day": "Day 1",
-    "image": RescueRangers
+    "day": "Day 2",
+    "image": ZairzaRescueRangers
   },
   {
     "eventName": "PVP Gaming",
@@ -82,7 +142,7 @@ export const events29 = [
     "endTime": "12:00 PM",
     "clubName": "Zairza",
     "day": "Day 2",
-    "image": PVPGaming
+    "image":ZairzaPVPGaming
   },
   {
     "eventName": "Wearable Tech",
@@ -92,68 +152,188 @@ export const events29 = [
     "endTime": "4:00 PM",
     "clubName": "Zairza",
     "day": "Day 2",
-    "image": WearableTech
+    "image": ZairzaWearableTech
   },
   {
-    "eventName": "Cultural Night",
+    "eventName": "Tech Meme",
     "description": "An evening filled with cultural performances, music, and dance.",
     "date": "2025-02-17",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
-    "clubName": "Cultural Club",
-    "day": "Day 3",
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
-  }
+    "clubName": "Spectrum",
+    "day": "Day 2",
+    "image": SpectrumTechMeme
+  },
+  {
+    "eventName": "Circuit Craft",
+    "description": "An evening filled with cultural performances, music, and dance.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Energy",
+    "day": "Day 2",
+    "image": EnergyCircuitCraft
+  },
+  {
+    "eventName": "Electrovia",
+    "description": "An evening filled with cultural performances, music, and dance.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Energy",
+    "day": "Day 2",
+    "image": EnergyElectrovia
+  },
+  {
+    "eventName": "Game Mania",
+    "description": "An evening filled with cultural performances, music, and dance.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Energy",
+    "day": "Day 2",
+    "image": EnergyGameMania
+  },
+  {
+    "eventName": "Line Follower",
+    "description": "An evening filled with cultural performances, music, and dance.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Energy",
+    "day": "Day 2",
+    "image": EnergyLineFollower
+  },
+  {
+    "eventName": "Water Rocket",
+    "description": "An evening filled with cultural performances, music, and dance.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Aerospace",
+    "day": "Day 2",
+    "image": AerospaceWaterpoweredbottleRocket
+  },
+  {
+    "eventName": "Airshow",
+    "description": "An evening filled with cultural performances, music, and dance.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Aerospace",
+    "day": "Day 2",
+    "image": Aerospace76105RCAirplane
+  },
+  {
+    "eventName": "Slingshot",
+    "description": "An evening filled with cultural performances, music, and dance.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Aerospace",
+    "day": "Day 2",
+    "image": AerospaceSlingshotTech
+  },
+  {
+    "eventName": "Tech",
+    "description": "An evening filled with cultural performances, music, and dance.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Aerospace",
+    "day": "Day 2",
+    "image": Aerospace76105RCAirplane
+  },
 ]
 export const events30 = [
   {
-    "eventName": "TechnoHack",
+    "eventName": "Uncanny Code Quest",
     "description": "A hackathon event where participants solve real-world problems using technology.",
     "date": "2025-02-15",
     "startTime": "10:00 AM",
     "endTime": "6:00 PM",
-    "clubName": "Tech Club",
+    "clubName": "Spectrum",
     "day": "Day 1",
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
+    "image": SpectrumUncannyCodeQuest
   },
   {
-    "eventName": "Robotics Workshop",
-    "description": "Hands-on workshop to build and program robots. lorem ipsum dolor sit amet.",
+    "eventName": "Frame Forge",
+    "description": "Hands-on workshop to build and program robots.",
     "date": "2025-02-15",
     "startTime": "2:00 PM",
     "endTime": "5:00 PM",
-    "clubName": "Robotics Club",
+    "clubName": "SAE",
     "day": "Day 1",
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
+    "image": SAEFrameForge
   },
   {
-    "eventName": "CodeSprint",
+    "eventName": "Lead The Beast",
     "description": "A competitive programming contest for coding enthusiasts.",
     "date": "2025-02-16",
     "startTime": "9:00 AM",
     "endTime": "12:00 PM",
-    "clubName": "Coding Club",
+    "clubName": "SAE",
     "day": "Day 2",
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
+    "image": SAELeadTheBeast
   },
   {
-    "eventName": "AI Symposium",
-    "description": "A series of talks and panel discussions by industry leaders in AI.",
-    "date": "2025-02-16",
-    "startTime": "1:00 PM",
-    "endTime": "4:00 PM",
-    "clubName": "AI Club",
-    "day": "Day 2",
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
-  },
-  {
-    "eventName": "Cultural Night",
+    "eventName": "Tiny Whoop",
     "description": "An evening filled with cultural performances, music, and dance.",
     "date": "2025-02-17",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
-    "clubName": "Cultural Club",
+    "clubName": "Aerospace",
     "day": "Day 3",
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
-  }
+    "image": AerospaceTinyWhoop
+  },
+  {
+    "eventName": "Wingman",
+    "description": "An evening filled with cultural performances, music, and dance.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Aerospace",
+    "day": "Day 3",
+    "image": AerospaceWingman
+  },
+  {
+    "eventName": "Bridge Making",
+    "description": "An evening filled with cultural performances, music, and dance.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Civicon",
+    "day": "Day 3",
+    "image": CiviconBridgeMaking
+  },
+  {
+    "eventName": "Canva Design",
+    "description": "An evening filled with cultural performances, music, and dance.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Civicon",
+    "day": "Day 3",
+    "image": CiviconCanvaDesign
+  },
+  {
+    "eventName": "Escape Room",
+    "description": "An evening filled with cultural performances, music, and dance.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Civicon",
+    "day": "Day 3",
+    "image": CiviconEscapeRoom
+  },
+  {
+    "eventName": "Where's The Mystery",
+    "description": "An evening filled with cultural performances, music, and dance.",
+    "date": "2025-02-17",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "clubName": "Civicon",
+    "day": "Day 3",
+    "image": CiviconWheresTheMystery
+  },
 ]
