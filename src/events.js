@@ -118,7 +118,7 @@ export const events30 = [
   },
   {
     "eventName": "Robotics Workshop",
-    "description": "Hands-on workshop to build and program robots.",
+    "description": "Hands-on workshop to build and program robots. lorem ipsum dolor sit amet.",
     "date": "2025-02-15",
     "startTime": "2:00 PM",
     "endTime": "5:00 PM",

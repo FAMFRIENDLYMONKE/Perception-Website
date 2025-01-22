@@ -15,8 +15,8 @@ const Events = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {events28.map((event, index) => (
               <div
-                key={index}
-                className="bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+                key={index} 
+                className="bg-gray-800 max-w-[400px] mx-auto rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
               >
                 <img
                   src={event.image}
@@ -24,13 +24,13 @@ const Events = () => {
                   className="w-full h-[15rem] object-cover p-2"
                 />
                 <div className="p-4">
-                  <h2 className="text-xl font-semibold text-purple-400 mb-2">
+                  <h2 className="text-xl max-lg:text-center font-semibold text-purple-400 mb-2">
                     {event.eventName}
                   </h2>
                   <p className="text-gray-300 text-sm mb-4">
                     {event.description}
                   </p>
-                  <p className="text-gray-400 text-xs">
+                  {/* <p className="text-gray-400 text-xs">
                     <strong>Date:</strong> {event.date}
                   </p>
                   <p className="text-gray-400 text-xs">
@@ -41,7 +41,7 @@ const Events = () => {
                   </p>
                   <p className="text-gray-400 text-xs">
                     <strong>Day:</strong> {event.day}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             ))}
@@ -60,7 +60,7 @@ const Events = () => {
             {events29.map((event, index) => (
               <div
                 key={index}
-                className="bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+                className="bg-gray-800 max-w-[400px] mx-auto rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
               >
                 <img
                   src={event.image}
@@ -74,7 +74,7 @@ const Events = () => {
                   <p className="text-gray-300 text-sm mb-4">
                     {event.description}
                   </p>
-                  <p className="text-gray-400 text-xs">
+                  {/* <p className="text-gray-400 text-xs">
                     <strong>Date:</strong> {event.date}
                   </p>
                   <p className="text-gray-400 text-xs">
@@ -85,7 +85,7 @@ const Events = () => {
                   </p>
                   <p className="text-gray-400 text-xs">
                     <strong>Day:</strong> {event.day}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             ))}
@@ -104,7 +104,7 @@ const Events = () => {
             {events30.map((event, index) => (
               <div
                 key={index}
-                className="bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+                className="bg-gray-800 max-w-[400px] mx-auto rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
               >
                 <img
                   src={event.image}
@@ -118,7 +118,7 @@ const Events = () => {
                   <p className="text-gray-300 text-sm mb-4">
                     {event.description}
                   </p>
-                  <p className="text-gray-400 text-xs">
+                  {/* <p className="text-gray-400 text-xs">
                     <strong>Date:</strong> {event.date}
                   </p>
                   <p className="text-gray-400 text-xs">
@@ -129,7 +129,7 @@ const Events = () => {
                   </p>
                   <p className="text-gray-400 text-xs">
                     <strong>Day:</strong> {event.day}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             ))}

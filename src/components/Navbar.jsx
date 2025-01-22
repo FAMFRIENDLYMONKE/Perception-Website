@@ -23,7 +23,8 @@ const Navbar = ({ name }) => {
     // Handle scroll to toggle navbar background
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 50) {
+            const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+            if (window.scrollY > vh) {
                 setHasBackground(true);
             } else {
                 setHasBackground(false);
@@ -57,25 +58,26 @@ const Navbar = ({ name }) => {
 
                 {/* Hamburger Menu Button */}
                 <button
-                    className="text-white hover:text-purple-400 md:hidden"
+                    className={`text-white md:hidden ${isMenuOpen ? 'hidden' : 'visible'}`}
                     aria-label="Toggle mobile menu"
                     onClick={toggleMenu}
                 >
                     {isMenuOpen ? (
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M6 18L18 6M6 6l12 12"
-                            />
-                        </svg>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-6 w-6"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M6 18L18 6M6 6l12 12"
+                                />
+                            </svg>
+
                     ) : (
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +109,7 @@ const Navbar = ({ name }) => {
                                 
                                 onClick={() => navigate("/events")}
                                 
-                                className="nav-links block text-white rounded hover:bg-gray-900 md:bg-transparent cursor-pointer"
+                                className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
                             >
                                 Explore Events
                             </button>
@@ -115,7 +117,7 @@ const Navbar = ({ name }) => {
                         <li>
                             <button
                                 onClick={() => handleNavigation("section3")}
-                                className="nav-links block text-white rounded hover:bg-gray-900 md:bg-transparent cursor-pointer"
+                                className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
                             >
                                 Our Sponsors
                             </button>
@@ -123,7 +125,7 @@ const Navbar = ({ name }) => {
                         <li>
                             <button
                                 onClick={() => handleNavigation("section4")}
-                                className="nav-links block text-white rounded hover:bg-gray-900 md:bg-transparent cursor-pointer"
+                                className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
                             >
                                 About Us
                             </button>
@@ -131,7 +133,7 @@ const Navbar = ({ name }) => {
                         <li>
                             <button
                                 onClick={() => handleNavigation("section5")}
-                                className="nav-links block text-white rounded hover:bg-gray-900 md:bg-transparent cursor-pointer"
+                                className="nav-links block text-white rounded hover:text-gray-400 md:bg-transparent cursor-pointer"
                             >
                                 Brochure
                             </button>
@@ -141,16 +143,16 @@ const Navbar = ({ name }) => {
             </nav>
 
             {/* Mobile Menu */}
-            {isMenuOpen && (
+            {(
                 <div
                     id="mobile-menu"
-                    className="fixed inset-0 transform translate-x-0 transition-transform duration-300 ease-in-out z-50"
+                    className={`fixed transition ease-in-out duration-500 inset-0 z-50 ${isMenuOpen?"translate-x-0":" delay-200 translate-x-full"}`}
                 >
                     <div
-                        className="absolute inset-0 bg-black opacity-50"
+                        className={`absolute inset-0 transition transition-color bg-black duration-300 ease-in-out opacity-0 ${isMenuOpen ? " delay-500 opacity-50" : "opacity-0"}`}
                         onClick={closeMenu}
                     ></div>
-                    <div className="absolute left-0 top-0 h-full w-64 bg-[#000212] text-white shadow-lg">
+                    <div className="absolute right-0 top-0 h-full w-64 bg-[#000212] text-white shadow-lg">
                         <div className="flex justify-between items-center p-4 border-b border-gray-700">
                             <h3 className="text-lg font-bold">Menu</h3>
                             <button
@@ -175,25 +177,25 @@ const Navbar = ({ name }) => {
                         <nav className="flex flex-col p-4">
                             <button
                                 onClick={() => navigate("/events")}
-                                className="py-3 px-4 text-white hover:bg-purple-400 rounded-md"
+                                className="py-3 px-4 hover:text-purple-400 text-white "
                             >
                                 Explore Events
                             </button>
                             <button
                                 onClick={() => handleNavigation("section3")}
-                                className="py-3 px-4 text-white hover:bg-purple-400 rounded-md"
+                                className="py-3 px-4 hover:text-purple-400 text-white "
                             >
                                 Our Sponsors
                             </button>
                             <button
                                 onClick={() => handleNavigation("section4")}
-                                className="py-3 px-4 text-white hover:bg-purple-400 rounded-md"
+                                className="py-3 px-4 hover:text-purple-400 text-white "
                             >
                                 About Us
                             </button>
                             <button
                                 onClick={() => handleNavigation("section5")}
-                                className="py-3 px-4 text-white hover:bg-purple-400 rounded-md"
+                                className="py-3 px-4 text-white hover:text-purple-400"
                             >
                                 Brochure
                             </button>
