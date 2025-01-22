@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { events28, events29, events30 } from "../events.js";
 
@@ -57,7 +58,7 @@ const Events = () => {
                   <p className="text-gray-300 text-sm mb-4">
                     {event.description}
                   </p>
-                  <p className="text-gray-400 text-xs">
+                  {/* <p className="text-gray-400 text-xs">
                     <strong>Date:</strong> {event.date}
                   </p>
                   <p className="text-gray-400 text-xs">
@@ -68,7 +69,7 @@ const Events = () => {
                   </p>
                   <p className="text-gray-400 text-xs">
                     <strong>Day:</strong> {event.day}
-                  </p>
+                  </p> */}
                   <div className="mt-4">
                     <button className="bg-purple-500 text-white font-semibold py-2 w-full rounded hover:bg-purple-600 transition duration-300">
                       Register
@@ -105,7 +106,7 @@ const Events = () => {
                   <p className="text-gray-300 text-sm mb-4">
                     {event.description}
                   </p>
-                  <p className="text-gray-400 text-xs">
+                  {/* <p className="text-gray-400 text-xs">
                     <strong>Date:</strong> {event.date}
                   </p>
                   <p className="text-gray-400 text-xs">
@@ -116,7 +117,7 @@ const Events = () => {
                   </p>
                   <p className="text-gray-400 text-xs">
                     <strong>Day:</strong> {event.day}
-                  </p>
+                  </p> */}
                   <div className="mt-4">
                     <button className="bg-purple-500 text-white font-semibold py-2 w-full rounded hover:bg-purple-600 transition duration-300">
                       Register
@@ -153,7 +154,7 @@ const Events = () => {
                   <p className="text-gray-300 text-sm mb-4">
                     {event.description}
                   </p>
-                  <p className="text-gray-400 text-xs">
+                  {/* <p className="text-gray-400 text-xs">
                     <strong>Date:</strong> {event.date}
                   </p>
                   <p className="text-gray-400 text-xs">
@@ -164,7 +165,7 @@ const Events = () => {
                   </p>
                   <p className="text-gray-400 text-xs">
                     <strong>Day:</strong> {event.day}
-                  </p>
+                  </p> */}
                   <div className="mt-4">
                     <button className="bg-purple-500 text-white font-semibold py-2 w-full rounded hover:bg-purple-600 transition duration-300">
                       Register
