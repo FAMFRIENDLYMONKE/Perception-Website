@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import { NavLink, useNavigate, useLocation,Link } from "react-router-dom"; 
 import logo from '../assets/logo.png'; 
+import SponserMarque from './SponserMarque';
 
 const Navbar = ({ name }) => {
 
@@ -52,20 +53,20 @@ const Navbar = ({ name }) => {
             <nav className="flex flex-row justify-between items-center lg:p-5 md:p-4 sm:p-5">
                 <div id="header-logo" className="relative tracking-wider">
                     <NavLink to="/" className="flex cursor-pointer">
-                        <img src={logo} alt="Perception" className="h-10 sm:h-14" />
+                        <img src={logo} alt="Perception" className={`max-sm:px-2 max-sm:mt-2 h-10 sm:h-14 ${isMenuOpen ? 'hidden' : 'visible'}`} />
                     </NavLink>
                 </div>
 
                 {/* Hamburger Menu Button */}
                 <button
-                    className={`text-white md:hidden ${isMenuOpen ? 'hidden' : 'visible'}`}
+                    className={`text-white md:hidden px-2 ${isMenuOpen ? 'hidden' : 'visible'}`}
                     aria-label="Toggle mobile menu"
                     onClick={toggleMenu}
                 >
                     {isMenuOpen ? (
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="h-6 w-6"
+                                className="h-8 w-8"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -81,7 +82,7 @@ const Navbar = ({ name }) => {
                     ) : (
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6"
+                            className="h-8 w-8"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -154,13 +155,13 @@ const Navbar = ({ name }) => {
                     ></div>
                     <div className="absolute right-0 top-0 h-full w-64 bg-[#000212] text-white shadow-lg">
                         <div className="flex justify-between items-center p-4 border-b border-gray-700">
-                            <h3 className="text-lg font-bold">Menu</h3>
+                            <h3 id="heading" className="mt-4 ml-4 text-lg font-bold">MENU</h3>
                             <button
                                 onClick={closeMenu}
-                                className="p-2 rounded-full hover:bg-gray-800"
+                                className="mt-4 mr-4 rounded-full hover:bg-gray-800"
                             >
                                 <svg
-                                    className="w-6 h-6"
+                                    className="w-8 h-8"
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
@@ -182,7 +183,10 @@ const Navbar = ({ name }) => {
                                 Explore Events
                             </button>
                             <button
-                                onClick={() => handleNavigation("section3")}
+                                onClick={() => {
+                                        handleNavigation("/");
+                                    }
+                                }
                                 className="py-3 px-4 hover:text-purple-400 text-white "
                             >
                                 Our Sponsors

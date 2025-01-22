@@ -11,13 +11,13 @@ const Footer = () => {
                 <div id="footer-left" className="flex flex-col gap-4 max-w-md">
                     <div className="flex items-center gap-3">
                         <Link to="/">
-                            <img src={logo} className="w-11" alt="footerlogo" />
+                            <img src={logo} className="w-[50px]" alt="footerlogo" />
                         </Link>
-                        <div id="footer-text" className="text-justify font-oswald">
-                            Perception 2K25: Igniting Innovation at Odisha University of Technology & Research
+                        <div id="footer-text" className="text-justify font-oswald w-50">
+                            Igniting Innovation at <br /> Odisha University of Technology & Research
                         </div>
                     </div>
-                    <ul className="flex items-center space-x-3 mt-4">
+                    <ul className="flex items-center space-x-3 mt-4 margin-auto">
                         <li>
                             <a
                                 href="https://twitter.com"

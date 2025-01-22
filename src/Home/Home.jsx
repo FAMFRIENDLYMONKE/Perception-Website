@@ -4,6 +4,7 @@ import About from '../components/About'
 import Section1 from '../components/Section1'
 import SponserMarque from '../components/SponserMarque'
 import Navbar from '../components/Navbar'
+import Merch from '../components/Merch'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
         <Section1/>
         <SponserMarque/>
         <About/>
+        <Merch/>
         <OurTeam/>
     </div>
   )
