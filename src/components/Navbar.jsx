@@ -20,6 +20,7 @@ const Navbar = ({ name }) => {
     };
 
     const navigate = useNavigate();
+    const location=useLocation();
 
     // Handle scroll to toggle navbar background
     useEffect(() => {
@@ -45,6 +46,9 @@ const Navbar = ({ name }) => {
     // };
 
     const handleNavigation = (sectionId) => {
+        if(location.pathname!='/'){
+            navigate('/');
+        }
         const section = document.getElementById(sectionId);
         if (section) {
             section.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -125,6 +129,7 @@ const Navbar = ({ name }) => {
                         </li>
                         <li>
                             <button
+                                
                                 onClick={() => handleNavigation("section3")}
                                 className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
                             >
@@ -174,7 +179,7 @@ const Navbar = ({ name }) => {
                             <h3 id="heading" className="mt-4 ml-4 text-lg font-bold">MENU</h3>
                             <button
                                 onClick={closeMenu}
-                                className="mt-2 mr-2 rounded-full hover:bg-gray-800"
+                                className="mt-2 mr-2 rounded-full hover:bg-gray-800 flex"
                             >
                                 <svg
                                     className="w-8 h-8"
