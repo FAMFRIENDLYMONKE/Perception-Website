@@ -200,7 +200,7 @@ const Navbar = ({ name }) => {
                             </button>
                             <button
                                 onClick={() => {
-                                        handleNavigation("/");
+                                        handleNavigation("section3");
                                     }
                                 }
                                 className="py-3 px-4 hover:text-purple-400 text-white "
@@ -212,6 +212,12 @@ const Navbar = ({ name }) => {
                                 className="py-3 px-4 hover:text-purple-400 text-white "
                             >
                                 About Us
+                            </button>
+                            <button
+                                onClick={() => handleNavigation("/merch")}
+                                className="py-3 px-4 hover:text-purple-400 text-white "
+                            >
+                                Merch
                             </button>
                             <button
                                 onClick={() => handleNavigation("section5")}
