@@ -7,7 +7,7 @@
   }
   @font-face {
     font-family: 'Martian Sunrise';
-    src: url('https://fonts.cdnfonts.com/css/martian-sunrise') format('truetype');
+    src: url('./assets/fonts/Martian\ Sunrise.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
