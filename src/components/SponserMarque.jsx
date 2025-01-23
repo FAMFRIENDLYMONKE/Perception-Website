@@ -6,8 +6,7 @@ import { sponsers } from "../sponsers";
 function SponserMarque() {
   return (
     <>
-      <div
-        className="absolute z-10 left-0"
+      <div id="section3" className="absolute z-10 left-0"
         style={{
           borderColor: "#808088",
         }}

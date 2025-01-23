@@ -39,8 +39,16 @@ const Navbar = ({ name }) => {
         };
     }, []);
 
-    const handleNavigation = (section) => {
-        navigate("/", { state: { section } });
+    // const handleNavigation = (section) => {
+    //     navigate("/", { state: { section } });
+    //     closeMenu();
+    // };
+
+    const handleNavigation = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
         closeMenu();
     };
 

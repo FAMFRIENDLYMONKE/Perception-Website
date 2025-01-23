@@ -13,20 +13,8 @@ function App() {
     <Routes>
     <Route path="/" element={<Layout name={name} />}>
       <Route path="" element={<Home />} />
-      {/* <Route path="register" element={<Register />} />
-      <Route path="signin" element={<SignIn />} /> */}
       <Route path="/events" element={<Events/>} />
       <Route path="/merch" element={<Merch/>} />
-      {/* <Route
-        path="profile"
-        element={
-          localStorage.getItem("authToken") ? (
-            <Profile setName={setName} />
-          ) : (
-            <Navigate to="/signin" />
-          )
-        }
-      /> */}
     </Route>
   </Routes>
   );

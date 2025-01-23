@@ -66,7 +66,7 @@ const Footer = () => {
                 </div>
 
                 {/* Footer Right */}
-                <div id="footer-right" className="flex flex-wrap gap-12 justify-end text-right">
+                <div id="footer-right" className="flex flex-nowrap gap-12 justify-center md:justify-end text-right md:gap-80 lg:gap-24">
                     <div>
                         <ul className="mt-4 space-y-2">
                             <li>

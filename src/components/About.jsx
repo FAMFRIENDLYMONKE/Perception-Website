@@ -3,7 +3,7 @@ import carImage from "../assets/21526.jpg";
 
 function About() {
   return (
-    <div className="w-full mt-10 min-h-[700px] flex flex-col-reverse lg:flex-row items-center justify-around lg:gap-0 gap-6">
+    <div className="w-full mt-10 min-h-[700px] flex flex-col-reverse lg:flex-row items-center justify-around lg:gap-0 gap-6" id="section4">
       <div className="lg:w-[45%] w-[80%] flex justify-around">
         <img src={carImage} alt="car" className="md:w-[500px] object-contain" />
       </div>
