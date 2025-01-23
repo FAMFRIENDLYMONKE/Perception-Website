@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { events28, events29, events30 } from "../events.js";
 
@@ -21,7 +20,7 @@ const Events = () => {
     <>
       <div className="bg-black text-white min-h-screen mt-4">
         <div className="text-center py-10">
-          <h1 className="text-4xl font-bold text-purple-400">Explore Events</h1>
+          <h1 className="text-6xl font-bold text-purple-400">EXPLORE EVENTS</h1>
         </div>
         <div className="text-center py-5">
           <input
@@ -35,9 +34,11 @@ const Events = () => {
 
         {/* Wednesday, 28th January */}
         <div className="text-center py-5">
-          <h2 className="text-2xl font-mono text-gray-200">
+          <br />
+          <h2 className="text-5xl font-mono text-gray-200">
             Tuesday, 28th January
           </h2>
+          <br />
         </div>
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -52,7 +53,7 @@ const Events = () => {
                   className="w-full h-[22rem] object-cover p-2"
                 />
                 <div className="p-4">
-                  <h2 className="text-xl flex justify-center font-semibold text-purple-400 mb-2">
+                  <h2 className="text-xl justify-center font-semibold text-purple-400 mb-2">
                     {event.eventName}
                   </h2>
                   <p className="text-gray-300 text-sm mb-4">
@@ -70,8 +71,9 @@ const Events = () => {
                   <p className="text-gray-400 text-xs">
                     <strong>Day:</strong> {event.day}
                   </p> */}
-                  <div className="mt-4">
-                    <button className="bg-purple-500 text-white font-semibold py-2 w-full rounded hover:bg-purple-600 transition duration-300">
+                  <div className="mt-4 ">
+                    <button onClick={() => window.open(event.reglink,'_blank')}
+                    className="bg-purple-500 text-white font-semibold py-2 w-full rounded mt-auto hover:bg-purple-600 transition duration-300">
                       Register
                     </button>
                   </div>
@@ -83,9 +85,11 @@ const Events = () => {
 
         {/* Thursday, 29th January */}
         <div className="text-center py-5">
-          <h2 className="text-2xl font-mono text-gray-200">
+          <br />
+          <h2 className="text-5xl font-mono text-gray-200">
           Wednesday, 29th January
           </h2>
+          <br />
         </div>
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -131,9 +135,11 @@ const Events = () => {
 
         {/* Friday, 30th January */}
         <div className="text-center py-5">
-          <h2 className="text-2xl font-mono text-gray-200">
+          <br />
+          <h2 className="text-5xl font-mono text-gray-200">
             Thursday, 30th January
           </h2>
+          <br />
         </div>
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

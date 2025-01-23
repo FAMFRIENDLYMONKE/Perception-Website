@@ -9,6 +9,7 @@ export const events28 = [
     "endTime": "6:00 PM",
     "clubName": "Zairza",
     "day": "Day 1",
+    "reglink": "https://www.google.com",
     "image": ZairzaBountyHunter
   },
   {
@@ -19,7 +20,8 @@ export const events28 = [
     "endTime": "5:00 PM",
     "clubName": "Zairza",
     "day": "Day 1",
-    "image": DigTheWeb
+    "image": DigTheWeb,
+    "reglink": "",
   },
   {
     "eventName": "Human Ludo",
@@ -29,7 +31,8 @@ export const events28 = [
     "endTime": "12:00 PM",
     "clubName": "Zairza",
     "day": "Day 1",
-    "image": ZairzaHumanLudo
+    "image": ZairzaHumanLudo,
+    "reglink": "",
   },
   {
     "eventName": "SensorSync Symposium",
@@ -39,7 +42,8 @@ export const events28 = [
     "endTime": "4:00 PM",
     "clubName": "Zairza",
     "day": "Day 1",
-    "image": ZairzaSensorSync
+    "image": ZairzaSensorSync,
+    "reglink": "",
   },
   {
     "eventName": "Competitve Programming",
@@ -49,57 +53,63 @@ export const events28 = [
     "endTime": "10:00 PM",
     "clubName": "Zairza",
     "day": "Day 1",
-    "image": CompetitiveProgramming
+    "image": CompetitiveProgramming,
+    "reglink": "",
   },
   {
     "eventName": "Cir-Kit",
-    "description": "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+    "description": "Welcome to Cir-Kit, the electrifying event where circuits, sensors, and code come together in a race against time! In this hands-on challenge, participants will assemble cutting-edge hardware projects using Arduino and sensors. The catch? The hardware and code are pre-loaded, so you’ll focus purely on the assembly and wiring. It’s a test of precision, teamwork, and speed—who will be the first to power up a fully functional project? ",
     "date": "2025-02-17",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "clubName": "Spectrum",
     "day": "Day 1",
-    "image": SpectrumCirKit
+    "image": SpectrumCirKit,
+    "reglink": "",
   },
   {
     "eventName": "Design-A-Thon",
-    "description": "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+    "description": "Welcome to Design-Athon, the place where pixels meet playfulness and technology meets artistry! Think you’ve got what it takes to create a jawdropping design that’s as sharp as your coding skills? Get ready to flex your creative muscles with AI tools and editing software to make the ultimate techinfused masterpiece.",
     "date": "2025-02-17",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "clubName": "Spectrum",
     "day": "Day 1",
-    "image": SpectrumDesignAthon
+    "image": SpectrumDesignAthon,
+    "reglink": "",
   },
   {
     "eventName": "Edit Expo",
-    "description": "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+    "description": "Get ready to unleash your inner editing wizard at Edit Expo—the most thrilling content creation challenge! In this event, you’ll dive into a pool of photos and videos provided by the organizers, and it’s up to you to work your editing magic.  ",
     "date": "2025-02-17",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "clubName": "Spectrum",
     "day": "Day 1",
-    "image": SpectrumEditExpo
+    "image": SpectrumEditExpo,
+    "reglink": "",
   },
   {
     "eventName": "Game Kraft",
-    "description": "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+    "description": "A Gaming pitch battle for creative minds to present innovative game ideas. Participants will pitch their concept, including storyline, gameplay mechanics, and design vision, to a panel of judges. This event encourages originality and strategic thinking, making it perfect for beginners and aspiring game developers.",
     "date": "2025-02-17",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "clubName": "Spectrum",
     "day": "Day 1",
-    "image": SpectrumGameCraft
+    "image": SpectrumGameCraft,
+    "reglink": "",
   },
   {
     "eventName": "Robo Soccer",
-    "description": "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+    "description": "Gear up for the ultimate showdown of brains and brawn—Robo Soccer! This action-packed event combines cutting-edge tech with the thrill of the beautiful game. Participants program their robots to dominate a miniature soccer arena, strategizing every kick, pass, and block. The goal? Outsmart, outplay, and outscore the competition!",
     "date": "2025-02-17",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "clubName": "Spectrum",
     "day": "Day 1",
-    "image": SpectrumRoboSoccer
+    "image": SpectrumRoboSoccer,
+    "reglink": "",
   },
   {
     "eventName": "Spec-Moji",
@@ -109,7 +119,8 @@ export const events28 = [
     "endTime": "10:00 PM",
     "clubName": "Spectrum",
     "day": "Day 1",
-    "image": SpectrumSpecMoji
+    "image": SpectrumSpecMoji,
+    "reglink": "",
   },
 ]
 
@@ -122,7 +133,8 @@ export const events29 = [
     "endTime": "6:00 PM",
     "clubName": "Zairza",
     "day": "Day 2",
-    "image": Designovate
+    "image": Designovate,
+    "reglink": "",
   },
   {
     "eventName": "Rescue Rangers",
@@ -132,7 +144,8 @@ export const events29 = [
     "endTime": "5:00 PM",
     "clubName": "Zairza",
     "day": "Day 2",
-    "image": ZairzaRescueRangers
+    "image": ZairzaRescueRangers,
+    "reglink": "",
   },
   {
     "eventName": "PVP Gaming",
@@ -142,7 +155,8 @@ export const events29 = [
     "endTime": "12:00 PM",
     "clubName": "Zairza",
     "day": "Day 2",
-    "image":ZairzaPVPGaming
+    "image":ZairzaPVPGaming,
+    "reglink": "",
   },
   {
     "eventName": "Wearable Tech",
@@ -152,7 +166,8 @@ export const events29 = [
     "endTime": "4:00 PM",
     "clubName": "Zairza",
     "day": "Day 2",
-    "image": ZairzaWearableTech
+    "image": ZairzaWearableTech,
+    "reglink": "",
   },
   {
     "eventName": "Tech Meme",
@@ -162,7 +177,8 @@ export const events29 = [
     "endTime": "10:00 PM",
     "clubName": "Spectrum",
     "day": "Day 2",
-    "image": SpectrumTechMeme
+    "image": SpectrumTechMeme,
+    "reglink": "",
   },
   {
     "eventName": "Circuit Craft",
@@ -172,7 +188,8 @@ export const events29 = [
     "endTime": "10:00 PM",
     "clubName": "Energy",
     "day": "Day 2",
-    "image": EnergyCircuitCraft
+    "image": EnergyCircuitCraft,
+    "reglink": "",
   },
   {
     "eventName": "Electrovia",
@@ -182,7 +199,8 @@ export const events29 = [
     "endTime": "10:00 PM",
     "clubName": "Energy",
     "day": "Day 2",
-    "image": EnergyElectrovia
+    "image": EnergyElectrovia,
+    "reglink": "",
   },
   {
     "eventName": "Game Mania",
@@ -192,7 +210,8 @@ export const events29 = [
     "endTime": "10:00 PM",
     "clubName": "Energy",
     "day": "Day 2",
-    "image": EnergyGameMania
+    "image": EnergyGameMania,
+    "reglink": "",
   },
   {
     "eventName": "Line Follower",
@@ -202,7 +221,8 @@ export const events29 = [
     "endTime": "10:00 PM",
     "clubName": "Energy",
     "day": "Day 2",
-    "image": EnergyLineFollower
+    "image": EnergyLineFollower,
+    "reglink": "",
   },
   {
     "eventName": "Water Rocket",
@@ -212,7 +232,8 @@ export const events29 = [
     "endTime": "10:00 PM",
     "clubName": "Aerospace",
     "day": "Day 2",
-    "image": AerospaceWaterpoweredbottleRocket
+    "image": AerospaceWaterpoweredbottleRocket,
+    "reglink": "",
   },
   {
     "eventName": "Airshow",
@@ -222,7 +243,8 @@ export const events29 = [
     "endTime": "10:00 PM",
     "clubName": "Aerospace",
     "day": "Day 2",
-    "image": Aerospace76105RCAirplane
+    "image": Aerospace76105RCAirplane,
+    "reglink": "",
   },
   {
     "eventName": "Slingshot",
@@ -232,29 +254,21 @@ export const events29 = [
     "endTime": "10:00 PM",
     "clubName": "Aerospace",
     "day": "Day 2",
-    "image": AerospaceSlingshotTech
-  },
-  {
-    "eventName": "Tech",
-    "description": "An evening filled with cultural performances, music, and dance.",
-    "date": "2025-02-17",
-    "startTime": "7:00 PM",
-    "endTime": "10:00 PM",
-    "clubName": "Aerospace",
-    "day": "Day 2",
-    "image": Aerospace76105RCAirplane
+    "image": AerospaceSlingshotTech,
+    "reglink": "",
   },
 ]
 export const events30 = [
   {
     "eventName": "Uncanny Code Quest",
-    "description": "A hackathon event where participants solve real-world problems using technology.",
+    "description": "The Uncanny Code Quest is a coding challenge that takes you from basic tasks to mind-bending problems. With each level, you’ll face increasingly complex and unconventional coding challenges that test your skills, creativity, and problem-solving abilities. Prepare to tackle the unexpected and push your coding limits in this unique and exciting adventure!",
     "date": "2025-02-15",
     "startTime": "10:00 AM",
     "endTime": "6:00 PM",
     "clubName": "Spectrum",
     "day": "Day 1",
-    "image": SpectrumUncannyCodeQuest
+    "image": SpectrumUncannyCodeQuest,
+    "reglink": "",
   },
   {
     "eventName": "Frame Forge",
@@ -264,7 +278,8 @@ export const events30 = [
     "endTime": "5:00 PM",
     "clubName": "SAE",
     "day": "Day 1",
-    "image": SAEFrameForge
+    "image": SAEFrameForge,
+    "reglink": "",
   },
   {
     "eventName": "Lead The Beast",
@@ -274,7 +289,8 @@ export const events30 = [
     "endTime": "12:00 PM",
     "clubName": "SAE",
     "day": "Day 2",
-    "image": SAELeadTheBeast
+    "image": SAELeadTheBeast,
+    "reglink": "",
   },
   {
     "eventName": "Tiny Whoop",
@@ -284,7 +300,8 @@ export const events30 = [
     "endTime": "10:00 PM",
     "clubName": "Aerospace",
     "day": "Day 3",
-    "image": AerospaceTinyWhoop
+    "image": AerospaceTinyWhoop,
+    "reglink": "",
   },
   {
     "eventName": "Wingman",
@@ -294,7 +311,8 @@ export const events30 = [
     "endTime": "10:00 PM",
     "clubName": "Aerospace",
     "day": "Day 3",
-    "image": AerospaceWingman
+    "image": AerospaceWingman,
+    "reglink": "",
   },
   {
     "eventName": "Bridge Making",
@@ -304,7 +322,8 @@ export const events30 = [
     "endTime": "10:00 PM",
     "clubName": "Civicon",
     "day": "Day 3",
-    "image": CiviconBridgeMaking
+    "image": CiviconBridgeMaking,
+    "reglink": "",
   },
   {
     "eventName": "Canva Design",
@@ -314,7 +333,8 @@ export const events30 = [
     "endTime": "10:00 PM",
     "clubName": "Civicon",
     "day": "Day 3",
-    "image": CiviconCanvaDesign
+    "image": CiviconCanvaDesign,
+    "reglink": "",
   },
   {
     "eventName": "Escape Room",
@@ -324,7 +344,8 @@ export const events30 = [
     "endTime": "10:00 PM",
     "clubName": "Civicon",
     "day": "Day 3",
-    "image": CiviconEscapeRoom
+    "image": CiviconEscapeRoom,
+    "reglink": "",
   },
   {
     "eventName": "Where's The Mystery",
@@ -334,6 +355,7 @@ export const events30 = [
     "endTime": "10:00 PM",
     "clubName": "Civicon",
     "day": "Day 3",
-    "image": CiviconWheresTheMystery
+    "image": CiviconWheresTheMystery,
+    "reglink": "",
   },
 ]
