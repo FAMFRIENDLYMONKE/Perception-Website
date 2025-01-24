@@ -36,7 +36,7 @@ const SectionMerch = () => {
           Perception Official Merchandise
         </h3>
         <button
-          onClick={() => window.open('https://forms.gle/knjD2MWQF2P2LVeB6','_blank')}
+          onClick={() => window.open('https://forms.gle/Qu6kbWWFbeZsnxvM6','_blank')}
           className="bg-white text-[#8a4fe7] font-bold py-3 px-8 mt-[500px] rounded-full text-lg transition duration-300 ease-in-out hover:bg-violet-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
         >
           Get Yours Now
