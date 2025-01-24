@@ -9,7 +9,7 @@ export const profiles=[
         lin:"https://www.linkedin.com/in/swastik-giri-b70650238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         git:"",
         clubsite:"",
-        logo:zairza
+        logo:""
     },
     {
         imag:"https://iili.io/2s0Nv7s.jpg",
@@ -20,7 +20,7 @@ export const profiles=[
         lin:"https://www.linkedin.com/in/rahul-agarwalla-b134a1205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         git:"",
         clubsite:"",
-        logo:zairza
+        logo:""
     },
     {
         imag:"https://iili.io/2s0NfX2.jpg",
@@ -31,7 +31,7 @@ export const profiles=[
         lin:"https://www.linkedin.com/in/suvesh-samantaray/",
         git:"",
         clubsite:"",
-        logo:zairza
+        logo:""
     },
     {
         imag:"https://iili.io/2s0ODFt.jpg",
@@ -40,8 +40,19 @@ export const profiles=[
         insta:"https://www.linkedin.com/in/suvesh-samantaray/",
         twit:"https://x.com/AbhinashPritir1",
         lin:"https://www.linkedin.com/in/abhinash-pritiraj-85ab9226b/",
+        git:"https://www.github.com/abhinash04/",
+        clubsite:"",
+        logo:""
+    },
+    {
+        imag:"",
+        role:"Developer",
+        name:"Puneet",
+        insta:"https://www.linkedin.com/in//",
+        twit:"https://x.com/",
+        lin:"https://www.linkedin.com/in//",
         git:"https://www.linkedin.com/in/abhinash-pritiraj-85ab9226b/",
         clubsite:"",
-        logo:zairza
+        logo:""
     },
 ]
