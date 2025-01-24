@@ -21,6 +21,9 @@ export const profiles=[
         git:"",
         clubsite:"https://www.zairza.co.in",
         logo:zairza
+        git:"https://github.com/shanks-rahul",
+        clubsite:"",
+        logo:""
     },
     {
         imag:"https://iili.io/2s0NfX2.jpg",
@@ -47,11 +50,11 @@ export const profiles=[
     {
         imag:"https://iili.io/2s0iCw7.jpg",
         role:"Developer",
-        name:"Puneet",
+        name:"Puneet Dhal",
         insta:"https://www.instagram.com/puneet_344/",
-        twit:"https://x.com/",
+        twit:"https://x.com/Puneetkrdhal?t=1GbeqpFW6aTrufBqBzBT8w&s=08 ",
         lin:"https://www.linkedin.com/in//",
-        git:"https://www.linkedin.com/in/abhinash-pritiraj-85ab9226b/",
+        git:"https://github.com/puneetdhdhttps://www.linkedin.com/in/abhinash-pritiraj-85ab9226b/",
         clubsite:"https://www.zairza.co.in",
         logo:zairza
     },

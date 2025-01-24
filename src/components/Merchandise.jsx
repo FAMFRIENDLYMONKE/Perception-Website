@@ -12,7 +12,7 @@ function Merchandise() {
     const navigate = useNavigate();
   return (
     <div className="w-full mt-10 min-h-[700px] flex flex-col-reverse lg:flex-row items-center justify-around lg:gap-0 gap-6">
-      <div className="lg:w-[45%] w-[80%] my-auto flex flex-col items-center lg:block">
+      <div className="lg:w-[45%] w-[80%] xl:ml-32 my-auto flex flex-col items-center lg:block">
         <div className="flex lg:justify-left items-center space-x-6
         ">
         <div className="w-[100px] bg-gray-400 h-[1px] hidden lg:block" data-aos="fade-left"></div>
@@ -28,7 +28,7 @@ function Merchandise() {
         <br />
         <br />
         <button id="shimmer-btn" onClick={() => navigate("/merch")}
-        className="px-14 py-3 rounded font-semibold bg-violet-600">Merch</button>
+        className="px-14 py-3 rounded font-bold font-mono bg-violet-600">Merch</button>
         </div>
       </div>
       <div className="lg:w-[45%] w-[80%] flex justify-around"  data-aos="fade-right">
