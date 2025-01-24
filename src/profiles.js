@@ -8,8 +8,8 @@ export const profiles=[
         twit:"",
         lin:"https://www.linkedin.com/in/swastik-giri-b70650238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         git:"",
-        clubsite:"",
-        logo:""
+        clubsite:"https://www.zairza.co.in",
+        logo:zairza
     },
     {
         imag:"https://iili.io/2s0Nv7s.jpg",
@@ -19,8 +19,8 @@ export const profiles=[
         twit:"",
         lin:"https://www.linkedin.com/in/rahul-agarwalla-b134a1205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         git:"",
-        clubsite:"",
-        logo:""
+        clubsite:"https://www.zairza.co.in",
+        logo:zairza
     },
     {
         imag:"https://iili.io/2s0NfX2.jpg",
@@ -30,19 +30,19 @@ export const profiles=[
         twit:"",
         lin:"https://www.linkedin.com/in/suvesh-samantaray/",
         git:"",
-        clubsite:"",
-        logo:""
+        clubsite:"https://www.zairza.co.in",
+        logo:zairza
     },
     {
         imag:"https://iili.io/2s0ODFt.jpg",
         role:"Developer",
         name:"Abhinash Pritiraj",
-        insta:"https://www.instagram.com/ig_abhinash/?hl=en",
+        insta:"https://www.linkedin.com/in/suvesh-samantaray/",
         twit:"https://x.com/AbhinashPritir1",
         lin:"https://www.linkedin.com/in/abhinash-pritiraj-85ab9226b/",
         git:"https://www.github.com/abhinash04/",
-        clubsite:"",
-        logo:""
+        clubsite:"https://www.zairza.co.in",
+        logo:zairza
     },
     {
         imag:"https://iili.io/2s0iCw7.jpg",
@@ -50,9 +50,9 @@ export const profiles=[
         name:"Puneet",
         insta:"https://www.instagram.com/puneet_344/",
         twit:"https://x.com/",
-        lin:"http://www.linkedin.com/in/puneet-dhal-843549289",
-        git:"",
-        clubsite:"",
-        logo:""
+        lin:"https://www.linkedin.com/in//",
+        git:"https://www.linkedin.com/in/abhinash-pritiraj-85ab9226b/",
+        clubsite:"https://www.zairza.co.in",
+        logo:zairza
     },
 ]
