@@ -1,11 +1,8 @@
 import React, { useRef, useEffect } from "react";
-// import { useNavigate } from "react-router-dom";
 import vid from "../assets/Absolute_Cinema.mp4";
-// import tshirt from "../assets/tshirt-front-back.png";
 import { useNavigate } from "react-router-dom";
 
 const SectionMerch = () => {
-  //   const navigate = useNavigate()
   const videoRef = useRef(null);
   const navigate=useNavigate();
   useEffect(() => {
@@ -27,11 +24,7 @@ const SectionMerch = () => {
         <source src={vid} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      {/* <img
-          src={tshirt}
-          className="absolute z-0 w-auto w-full max-w-none"
-      ></img> */}
-      <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8 mt-4 ">
+      <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8 mt-10">
         <h3 className="text-5xl max-lg:text-3xl font-oswald font-semibold text-white mb-2 shadow-text">
           Perception Official Merchandise
         </h3>
