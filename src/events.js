@@ -506,9 +506,10 @@ export const flagshipevents = [
   },
   {
     eventName: "Civicon",
-    description:
-      "Test your Civil Engineering SKills",
+    short:"Test your Civil Engineering SKills",
+    description: "Test your Civil Engineering SKills",
     date: "2025-02-17",
+
     image: CompetitiveProgramming,
     reglink: "",
   },

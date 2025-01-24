@@ -34,7 +34,7 @@ const FlippableCard = ({ event }) => {
         <div
           className="absolute w-full h-full bg-white rounded-xl shadow-lg"
         >
-          <div className="flex mx-auto relative max-h-[530px]">
+          <div className="flex mx-auto relative h-[550px]">
             <img
               src={event.image}
               alt={event.eventName}
@@ -52,7 +52,7 @@ const FlippableCard = ({ event }) => {
               <div className="bg-glass px-4 py-2 rounded-tr-2xl rounded-bl-lg">
                 <button
                   className="px-16 py-2 bg-black text-white rounded-full hover:bg-gray-800"
-                  onClick={() => setIsOpen(true, event)}
+                  onClick={() => setIsOpen(true)}
                 >
                   Details
                 </button>
@@ -62,12 +62,12 @@ const FlippableCard = ({ event }) => {
         </div>
       </div>
     </div>
-    <SpringModal isOpen={isOpen} setIsOpen={setIsOpen} />
+    <SpringModal isOpen={isOpen} setIsOpen={setIsOpen} title={event.eventName} desc={event.description} register={event.reglink}/>
     </>
   );
 };
 
-const SpringModal = ({ isOpen, setIsOpen, event}) => {
+const SpringModal = ({ isOpen, setIsOpen, title, desc, register}) => {
   return (
     <AnimatePresence>
       {isOpen && (
@@ -91,12 +91,9 @@ const SpringModal = ({ isOpen, setIsOpen, event}) => {
                 <FiAlertCircle />
               </div>
               <h3 className="text-3xl font-bold text-center mb-2">
-                One more thing!
+                {title}
               </h3>
-              <p className="text-center mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-              aperiam vitae, sapiente ducimus eveniet in velit.
-              </p>
+              <p className="text-center mb-6">{desc}</p>
               <div className="flex gap-2">
                 <button
                   onClick={() => setIsOpen(false)}
@@ -105,7 +102,7 @@ const SpringModal = ({ isOpen, setIsOpen, event}) => {
                   Exit
                 </button>
                 <button
-                  onClick={() => window.open("https://www.google.com", "_blank")}
+                  onClick={() => window.open(register, "_blank")}
                   className="bg-white hover:opacity-90 transition-opacity text-indigo-600 font-semibold w-full py-2 rounded"
                 >
                   Register
