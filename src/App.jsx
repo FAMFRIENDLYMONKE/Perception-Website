@@ -6,6 +6,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Events from "./Pages/Events";
 import Merch from "./Pages/Merch";
+import FlagshipEvents from "./Pages/FlagshipEvents"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route path="" element={<Home />} />
       <Route path="/events" element={<Events/>} />
       <Route path="/merch" element={<Merch/>} />
+      <Route path="/events" element={<FlagshipEvents/>} />
     </Route>
   </Routes>
   );

@@ -20,7 +20,7 @@ const Events = () => {
     <>
       <div className="bg-black text-white min-h-screen mt-4">
         <div className="text-center py-10">
-          <h1 className="text-6xl font-bold text-purple-400">EXPLORE EVENTS</h1>
+          <h1 className="text-6xl mt-4 font-bold font-ethnocentric text-purple-400">EXPLORE EVENTS</h1>
         </div>
         <div className="text-center py-5">
           <input
@@ -35,7 +35,7 @@ const Events = () => {
         {/* Wednesday, 28th January */}
         <div className="text-center py-5">
           <br />
-          <h2 className="text-5xl font-mono text-gray-200">
+          <h2 className="text-5xl font-oswald text-gray-200">
             Tuesday, 28th January
           </h2>
           <br />
@@ -53,7 +53,7 @@ const Events = () => {
                   className="w-full h-[22rem] object-cover p-2"
                 />
                 <div className="p-4">
-                  <h2 className="text-xl justify-center font-semibold text-purple-400 mb-2">
+                  <h2 className="text-xl justify-center font-semibold font-ethnocentric text-center text-purple-400 mb-2">
                     {event.eventName}
                   </h2>
                   <p className="text-gray-300 text-sm mb-4">
@@ -74,7 +74,7 @@ const Events = () => {
                   <div className="mt-4 ">
                     <button onClick={() => window.open(event.reglink,'_blank')}
                     className="bg-purple-500 text-white font-semibold py-2 w-full rounded mt-auto hover:bg-purple-600 transition duration-300">
-                      Register
+                      REGISTER
                     </button>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ const Events = () => {
         {/* Thursday, 29th January */}
         <div className="text-center py-5">
           <br />
-          <h2 className="text-5xl font-mono text-gray-200">
+          <h2 className="text-5xl font-oswald text-gray-200">
           Wednesday, 29th January
           </h2>
           <br />
@@ -104,7 +104,7 @@ const Events = () => {
                   className="w-full h-[22rem] object-cover p-2"
                 />
                 <div className="p-4">
-                  <h2 className="text-xl flex justify-center font-semibold text-purple-400 mb-2">
+                  <h2 className="text-xl flex justify-center font-semibold font-ethnocentric text-center text-purple-400 mb-2">
                     {event.eventName}
                   </h2>
                   <p className="text-gray-300 text-sm mb-4">
@@ -124,7 +124,7 @@ const Events = () => {
                   </p> */}
                   <div className="mt-4">
                     <button className="bg-purple-500 text-white font-semibold py-2 w-full rounded hover:bg-purple-600 transition duration-300">
-                      Register
+                      REGISTER
                     </button>
                   </div>
                 </div>
@@ -136,7 +136,7 @@ const Events = () => {
         {/* Friday, 30th January */}
         <div className="text-center py-5">
           <br />
-          <h2 className="text-5xl font-mono text-gray-200">
+          <h2 className="text-5xl font-oswald text-gray-200">
             Thursday, 30th January
           </h2>
           <br />
@@ -154,7 +154,7 @@ const Events = () => {
                   className="w-full h-[22rem] object-cover p-2"
                 />
                 <div className="p-4">
-                  <h2 className="text-xl flex justify-center font-semibold text-purple-400 mb-2">
+                  <h2 className="text-xl flex justify-center font-semibold font-ethnocentric text-center text-purple-400 mb-2">
                     {event.eventName}
                   </h2>
                   <p className="text-gray-300 text-sm mb-4">
@@ -174,7 +174,7 @@ const Events = () => {
                   </p> */}
                   <div className="mt-4">
                     <button className="bg-purple-500 text-white font-semibold py-2 w-full rounded hover:bg-purple-600 transition duration-300">
-                      Register
+                      REGISTER
                     </button>
                   </div>
                 </div>
