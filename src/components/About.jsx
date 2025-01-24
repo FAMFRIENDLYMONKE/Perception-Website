@@ -1,18 +1,32 @@
-import React,{useEffect} from "react";
+import React,{useEffect, useRef} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import carImage from "../assets/21526.jpg";
+import vid from "../assets/aboutus.mp4";
 
 function About() {
-
   useEffect(() => {
     AOS.init({ duration: 1000 }); // Initialize AOS with a duration of 1000ms
   }, [])
+    const videoRef = useRef(null);
+    useEffect(() => {
+      AOS.init({ duration: 1000 }); // Initialize AOS with a duration of 1000ms
+    }, [])
 
   return (
     <div className="w-full mt-10 min-h-[700px] flex flex-col-reverse lg:flex-row items-center justify-around lg:gap-0 gap-6" id="section4">
       <div className="lg:w-[45%] w-[80%] flex justify-around" data-aos="fade-left">
-        <img src={carImage} alt="car" className="md:w-[500px] object-contain" />
+        <video
+                        ref={videoRef}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        className="w-[500px] h-[500px] object-cover"
+                      >
+                        <source src={vid} type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
       </div>
       <div className="lg:w-[45%] w-[80%] my-auto flex flex-col items-center lg:block" >
         <div className="flex lg:justify-left items-center space-x-6

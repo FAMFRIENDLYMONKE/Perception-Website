@@ -6,8 +6,8 @@ import SponserMarque from '../components/SponserMarque'
 import Navbar from '../components/Navbar'
 import Merchandise from '../components/Merchandise'
 import StatisticMarque from '../components/StatisticMarque'
-// import Drawer from '../components/drawer'
 import Techsec from '../components/Techsec'
+import DeputyTech from '../components/DeputyTech'
 
 function Home() {
   return (
@@ -18,6 +18,7 @@ function Home() {
         <SponserMarque/>
         <About/>
         <Techsec/>
+        <DeputyTech/>
         <br />
         <StatisticMarque/>
         <Merchandise/>

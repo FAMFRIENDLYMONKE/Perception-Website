@@ -494,7 +494,7 @@ export const flagshipevents = [
     clubName: "Aerospace",
     day: "Coming Soon",
     image: AerospaceTech,
-    reglink: "",
+    reglink: "https://forms.gle/QXat9XnCmopcXTzn9",
   },
   {
     eventName: "Spark Your Thoughts",

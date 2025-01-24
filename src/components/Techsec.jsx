@@ -1,6 +1,7 @@
 import React,{useEffect} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import pic from "../assets/anshuman.jpg";
 
 function Techsec() {
 
@@ -30,7 +31,7 @@ function Techsec() {
             </div>
           </div>
           <div className="lg:w-[45%] w-[80%] flex justify-around"  data-aos="fade-right">
-            <img src="https://iili.io/2sOE04R.jpg" alt="anshuman pic" className="md:w-[500px] h-[500px] object-contain" />
+            <img src={pic} alt="anshuman pic" className="w-[500px] h-[500px] object-cover" />
           </div>
         </div>
   );
