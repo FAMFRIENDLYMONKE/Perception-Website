@@ -1,0 +1,39 @@
+import React,{useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+function Techsec() {
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize AOS with a duration of 1000ms
+  }, [])
+
+  return (
+    <div className="w-full mt-10 min-h-[700px] flex flex-col-reverse lg:flex-row items-center justify-around lg:gap-0 gap-6">
+          <div className="lg:w-[45%] w-[80%] xl:ml-32 my-auto flex flex-col items-center lg:block">
+            <div className="flex lg:justify-left items-center space-x-6
+            ">
+            <div className="w-[100px] bg-gray-400 h-[1px] hidden lg:block" data-aos="fade-left"></div>
+            <h3 id="heading" className="text-4xl lg:text-4xl font-semibold font-martian-sunrise">TECHNICAL SECRETARY</h3>
+            </div>
+            <br />
+            <div className="text-white"  data-aos="fade-left">
+            {/* <h1 id="aboutheading" className="text-5xl max-lg:text-center font-semibold font-martian-sunrise text-violet-600">Perception</h1> */}
+            {/* <br /> */}
+            <p className="text-gray-400 text-lg max-w-[500px] text-justify">
+            Tt gives me immense pleasure to be a part of Perception, our flagship college technical fest that showcases innovation, creativity, and technical prowess. This fest is a testament to our students' dedication and brilliance, providing a platform to learn, collaborate, and excel. From cutting-edge workshops to thrilling competitions, Perception reflects our collective spirit of pushing boundaries and embracing new challenges. I extend my heartfelt gratitude to the organizing team, participants, and faculty for their unwavering support in making this event a grand success. Together, let’s continue fostering a culture of excellence and innovation.
+            </p>
+            <br />
+            <br />
+            {/* <button id="shimmer-btn" onClick={() => navigate("/merch")}
+            className="px-14 py-3 rounded font-bold font-mono bg-violet-600">Merch</button> */}
+            </div>
+          </div>
+          <div className="lg:w-[45%] w-[80%] flex justify-around"  data-aos="fade-right">
+            <img src="https://iili.io/2sOE04R.jpg" alt="anshuman pic" className="md:w-[500px] h-[500px] object-contain" />
+          </div>
+        </div>
+  );
+}
+
+export default Techsec;

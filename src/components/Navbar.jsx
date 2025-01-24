@@ -154,7 +154,7 @@ const Navbar = ({ name }) => {
                         </li>
                         <li>
                             <button
-                                onClick={() => handleNavigation("section5")}
+                                onClick={() => window.open("https://drive.google.com/file/d/1JHHs0Z-iaC2mC5C083VSkT89m7Vakvsa/view?usp=sharing", "_blank")}
                                 className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
                             >
                                 Brochure
@@ -210,7 +210,7 @@ const Navbar = ({ name }) => {
                                 Merch
                             </button>
                             <button
-                                onClick={() => navigate("/events")}
+                                onClick={() => window.open("https://drive.google.com/file/d/1JHHs0Z-iaC2mC5C083VSkT89m7Vakvsa/view?usp=sharing", "_blank")}
                                 className="py-3 px-4 text-white hover:text-purple-400"
                             >
                                 Brochure

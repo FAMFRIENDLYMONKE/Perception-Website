@@ -28,13 +28,13 @@ const FlippableCard = ({ event }) => {
       style={{ maxWidth: "350px" }}
     >
       <div
-        className="relative w-full h-[550px]"
+        className="relative w-full h-[450px]"
       >
         {/* Front Face */}
         <div
           className="absolute w-full h-full bg-white rounded-xl shadow-lg"
         >
-          <div className="flex mx-auto relative h-[550px]">
+          <div className="flex mx-auto relative h-[450px]">
             <img
               src={event.image}
               alt={event.eventName}
@@ -42,14 +42,14 @@ const FlippableCard = ({ event }) => {
             />
             <div className="absolute bottom-0 rounded-lg w-fit leading-tight">
               <h1 className="text-2xl font-bold text-white relative top-4">
-                <p className="bg-glass px-4 py-1 rounded-tr-2xl rounded-br-lg inline-block">
+                <p className="bg-glass px-4 py-1 rounded-tr-2xl inline-block">
                   {event.eventName}
                 </p>
               </h1>
-              <p className="mt-4 text-xs text-gray-300 max-w-[300px] bg-glass py-2 px-4">
+              <p className="mt-4 text-xs rounded-tr-2xl text-gray-300 max-w-[300px] bg-glass py-2 px-4">
                 {event.short}
               </p>
-              <div className="bg-glass px-4 py-2 rounded-tr-2xl rounded-bl-lg">
+              <div className="bg-glass px-4 py-2 rounded-br-2xl rounded-bl-lg">
                 <button
                   className="px-16 py-2 bg-black text-white rounded-full hover:bg-gray-800"
                   onClick={() => setIsOpen(true)}

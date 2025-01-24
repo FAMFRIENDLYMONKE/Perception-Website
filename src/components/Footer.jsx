@@ -112,7 +112,7 @@ const Footer = () => {
                             <li>
                                 <a
                                     target="_blank"
-                                    href=""
+                                    href="https://forms.gle/K1p8kGoyhyY3fFuq5"
                                     className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
                                 >
                                     Become our Partner

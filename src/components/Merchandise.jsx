@@ -23,7 +23,9 @@ function Merchandise() {
         {/* <h1 id="aboutheading" className="text-5xl max-lg:text-center font-semibold font-martian-sunrise text-violet-600">Perception</h1> */}
         {/* <br /> */}
         <p className="text-gray-400 text-lg max-w-[500px] text-justify">
-        The trendiest merchandise in town! Grab your Perception merchandise now!
+        Get Ready to Flaunt the Fest Spirit! <br/>
+        The official Perception T-Shirts & Hoodies are here! Grab your exclusive merch and wear the vibe of innovation and creativity. Limited stock, unlimited swag—don’t miss out! Available now, only for a short time. 
+        Get yours before it’s gone!
         </p>
         <br />
         <br />
