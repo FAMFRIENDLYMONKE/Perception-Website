@@ -40,11 +40,6 @@ const Navbar = ({ name }) => {
         };
     }, []);
 
-    // const handleNavigation = (section) => {
-    //     navigate("/", { state: { section } });
-    //     closeMenu();
-    // };
-
     const handleNavigation = (sectionId) => {
         if(location.pathname!='/'){
             navigate('/');
@@ -154,7 +149,7 @@ const Navbar = ({ name }) => {
                         </li>
                         <li>
                             <button
-                                onClick={() => window.open("https://drive.google.com/file/d/1JHHs0Z-iaC2mC5C083VSkT89m7Vakvsa/view?usp=sharing", "_blank")}
+                                onClick={() => window.open("https://drive.google.com/file/d/1hR8VkdtJCaEfgmSo5vaEfKrJacDgeHDb/view?usp=sharing", "_blank")}
                                 className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
                             >
                                 Brochure
