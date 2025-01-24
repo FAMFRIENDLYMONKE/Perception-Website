@@ -1,10 +1,10 @@
-import React ,{useEffect} from "react";
+import React, { useRef, useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import vid from "../assets/chokha.mp4";
 
 function Merchandise() {
-
+    const videoRef = useRef(null);
     useEffect(() => {
       AOS.init({ duration: 1000 }); // Initialize AOS with a duration of 1000ms
     }, [])
@@ -35,7 +35,18 @@ function Merchandise() {
         </div>
       </div>
       <div className="lg:w-[45%] w-[80%] flex justify-around"  data-aos="fade-right">
-        <img src="https://img.freepik.com/premium-photo/cyberpunk-hacker-wearing-hoodie-with-face-drawn-it_1059430-95471.jpg" alt="car" className="md:w-[500px] object-contain" />
+        {/* <img src="https://img.freepik.com/premium-photo/cyberpunk-hacker-wearing-hoodie-with-face-drawn-it_1059430-95471.jpg" alt="car" className="md:w-[500px] object-contain" /> */}
+        <video
+                ref={videoRef}
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="md:w-[500px] h-[500px] object-contain"
+              >
+                <source src={vid} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
       </div>
     </div>
   );
