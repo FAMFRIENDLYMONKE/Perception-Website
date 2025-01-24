@@ -6,10 +6,12 @@ import SponserMarque from '../components/SponserMarque'
 import Navbar from '../components/Navbar'
 import Merchandise from '../components/Merchandise'
 import StatisticMarque from '../components/StatisticMarque'
+import Drawer from '../components/drawer'
 
 function Home() {
   return (
     <div>
+        {/* <Drawer/> */}
         <Navbar/>
         <Section1/>
         <SponserMarque/>
@@ -21,5 +23,6 @@ function Home() {
     </div>
   )
 }
+
 
 export default Home
