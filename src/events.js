@@ -1,3 +1,4 @@
+import { desc } from "framer-motion/client";
 import {
   Aerospace76105RCAirplane,
   AerospaceSlingshotTech,
@@ -433,6 +434,7 @@ export const events30 = [
 export const flagshipevents = [
   {
     eventName: "Robo Soccer",
+    short:"A fun filled robotic soccer extravaganza",
     description:
       "Gear up for the ultimate showdown of brains and brawn—Robo Soccer! This action-packed event combines cutting-edge tech with the thrill of the beautiful game. Participants program their robots to dominate a miniature soccer arena, strategizing every kick, pass, and block. The goal? Outsmart, outplay, and outscore the competition!",
     date: "2025-02-17",
@@ -445,6 +447,7 @@ export const flagshipevents = [
   },
   {
     eventName: "Rescue Rangers",
+    short:"A thrilling race against time and obstacles",
     description:
       "Design bots to navigate a hurdle-filled track, scoring points at checkpoints. Falling bots return to the nearest checkpoint, losing points. Qualifiers are based on the fastest times, and the final round has a 10-minute limit. Bots must weigh under 5 kg. Finish fast, minimize damage, and maximize points.",
     date: "2025-02-15",
@@ -457,72 +460,55 @@ export const flagshipevents = [
   },
   {
     eventName: "Line Follower",
-    description:
-      "An evening filled with cultural performances, music, and dance.",
+    short:
+      "Can Your Bot Crack the Maze? Is it the ultimate Maze Runner",
+    description:"",
     date: "2025-02-17",
-    startTime: "7:00 PM",
-    endTime: "10:00 PM",
     clubName: "Energy",
-    day: "Day 2",
     image: EnergyLineFollower,
     reglink: "",
   },
   {
     eventName: "Lead The Beast",
-    description: "A competitive programming contest for coding enthusiasts.",
+    short: "A competitive programming contest for coding enthusiasts.",
+    description: "A competitive programming contest for coding enthusiasts",
     date: "2025-02-16",
-    startTime: "9:00 AM",
-    endTime: "12:00 PM",
     clubName: "SAE",
-    day: "Day 2",
     image: SAELeadTheBeast,
     reglink: "",
   },
   {
     eventName: "H2GO",
-    description:
-      "An evening filled with cultural performances, music, and dance.",
+    short:
+      "Take your Rocket to new Horizons",
+    description: "Build Your Own Water Pressure propelled rocket can you beat the odds to reach the sky. Winner Takes it All",
     date: "2025-02-17",
-    startTime: "7:00 PM",
-    endTime: "10:00 PM",
     clubName: "Aerospace",
-    day: "Day 2",
     image: AerospaceWaterpoweredbottleRocket,
     reglink: "",
   },
   {
     eventName: "Spark Your Thoughts",
-    description:
-      "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+    short:
+      "A fun filled event to test your creativity and innovation",
+    description: "A fun filled event to test your creativity and innovation",
     date: "2025-02-17",
-    startTime: "7:00 PM",
-    endTime: "10:00 PM",
-    clubName: "Biozo",
-    day: "Day 1",
     image: CompetitiveProgramming,
     reglink: "",
   },
   {
     eventName: "Peek-a-boo",
-    description:
-      "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+    description:"",
+    short:"a spooky event to test your courage and wit",
     date: "2025-02-17",
-    startTime: "7:00 PM",
-    endTime: "10:00 PM",
-    clubName: "Biozo",
-    day: "Day 1",
     image: CompetitiveProgramming,
     reglink: "",
   },
   {
-    eventName: "Random",
+    eventName: "Civicon",
     description:
-      "In Competitive Programming, participants work solo or in pairs to solve a beginner-level algorithm problem within a time limit. In pairs, one codes while the other guides and debugs. Points are awarded for correctness and efficiency. Teamwork, problem-solving, and time management are key. The best solution wins.",
+      "Test your Civil Engineering SKills",
     date: "2025-02-17",
-    startTime: "7:00 PM",
-    endTime: "10:00 PM",
-    clubName: "Civicon",
-    day: "Day 1",
     image: CompetitiveProgramming,
     reglink: "",
   },
