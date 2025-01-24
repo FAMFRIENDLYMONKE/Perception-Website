@@ -127,7 +127,7 @@ const Navbar = ({ name }) => {
                                 Explore Events
                             </button>
                         </li>
-                        <li>
+                        {/* <li>
                             <button
                                 
                                 onClick={() => handleNavigation("section3")}
@@ -135,15 +135,15 @@ const Navbar = ({ name }) => {
                             >
                                 Our Sponsors
                             </button>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                             <button
                                 onClick={() => handleNavigation("section4")}
                                 className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
                             >
                                 About Us
                             </button>
-                        </li>
+                        </li> */}
                         <li>
                             <button
                                 onClick={() => navigate("/merch")}

@@ -18,7 +18,7 @@ export const profiles=[
         insta:"https://www.instagram.com/rahul__agarwalla?igsh=cTZnNm50ejZudTU3",
         twit:"",
         lin:"https://www.linkedin.com/in/rahul-agarwalla-b134a1205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        git:"",
+        git:"https://github.com/shanks-rahul",
         clubsite:"",
         logo:""
     },
@@ -47,11 +47,11 @@ export const profiles=[
     {
         imag:"https://iili.io/2s0iCw7.jpg",
         role:"Developer",
-        name:"Puneet",
+        name:"Puneet Dhal",
         insta:"https://www.instagram.com/puneet_344/",
-        twit:"https://x.com/",
+        twit:"https://x.com/Puneetkrdhal?t=1GbeqpFW6aTrufBqBzBT8w&s=08 ",
         lin:"http://www.linkedin.com/in/puneet-dhal-843549289",
-        git:"",
+        git:"https://github.com/puneetdhd",
         clubsite:"",
         logo:""
     },

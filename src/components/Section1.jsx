@@ -53,11 +53,10 @@ const Section1 = () => {
           </svg>
         </div>
 
-        <button
+        <button id="shimmer-btn"
           onClick={()=>navigate("/events")}
-          className="bg-white text-[#8a4fe7] font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out hover:bg-violet-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
-        >
-          Events
+          className="font-semibold py-3 px-8 rounded-full text-lg font-mono bg-violet-600 transition duration-300 ease-in-out">
+          EVENTS
         </button>
       </div>
     </div>
