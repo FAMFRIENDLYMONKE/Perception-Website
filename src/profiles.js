@@ -37,7 +37,7 @@ export const profiles=[
         imag:"https://iili.io/2s0ODFt.jpg",
         role:"Developer",
         name:"Abhinash Pritiraj",
-        insta:"https://www.linkedin.com/in/suvesh-samantaray/",
+        insta:"https://www.instagram.com/ig_abhinash/?hl=en",
         twit:"https://x.com/AbhinashPritir1",
         lin:"https://www.linkedin.com/in/abhinash-pritiraj-85ab9226b/",
         git:"https://www.github.com/abhinash04/",
@@ -45,13 +45,13 @@ export const profiles=[
         logo:""
     },
     {
-        imag:"",
+        imag:"https://iili.io/2s0iCw7.jpg",
         role:"Developer",
         name:"Puneet",
-        insta:"https://www.linkedin.com/in//",
+        insta:"https://www.instagram.com/puneet_344/",
         twit:"https://x.com/",
-        lin:"https://www.linkedin.com/in//",
-        git:"https://www.linkedin.com/in/abhinash-pritiraj-85ab9226b/",
+        lin:"http://www.linkedin.com/in/puneet-dhal-843549289",
+        git:"",
         clubsite:"",
         logo:""
     },
