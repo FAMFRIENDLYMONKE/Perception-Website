@@ -22,6 +22,7 @@ const FlippableCard = ({ event }) => {
   // };
 
   return (
+    <>
     <div
       className="relative w-full mx-auto mt-12 perspective"
       style={{ maxWidth: "350px" }}
@@ -59,28 +60,10 @@ const FlippableCard = ({ event }) => {
             </div>
           </div>
         </div>
-
-        {/* Back Face */}
-        {/* <div
-          className="absolute w-full h-full bg-gray-800 text-white rounded-xl shadow-lg"
-          style={{
-            backfaceVisibility: "hidden",
-            transform: "rotateY(180deg)",
-          }}
-        >
-          <div className="flex flex-col justify-center items-center h-full px-8">
-            <h2 className="text-3xl font-bold mb-4">{event.eventName}</h2>
-            <p className="text-lg mb-8">{event.fullDescription}</p>
-            <button
-              className="px-10 py-3 bg-green-500 text-white rounded-full hover:bg-green-700"
-              onClick={toggleFlip}
-            >
-              Go Back
-            </button>
-          </div>
-        </div> */}
       </div>
     </div>
+    <SpringModal isOpen={isOpen} setIsOpen={setIsOpen} />
+    </>
   );
 };
 
@@ -111,7 +94,8 @@ const SpringModal = ({ isOpen, setIsOpen, event}) => {
                 One more thing!
               </h3>
               <p className="text-center mb-6">
-                {event.description}
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              aperiam vitae, sapiente ducimus eveniet in velit.
               </p>
               <div className="flex gap-2">
                 <button
