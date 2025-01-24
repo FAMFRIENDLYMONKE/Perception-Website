@@ -204,28 +204,13 @@ const Navbar = ({ name }) => {
                                 Explore Events
                             </button>
                             <button
-                                onClick={() => {
-                                        handleNavigation("section3");
-                                    }
-                                }
-                                className="py-3 px-4 hover:text-purple-400 text-white "
-                            >
-                                Our Sponsors
-                            </button>
-                            <button
-                                onClick={() => handleNavigation("section4")}
-                                className="py-3 px-4 hover:text-purple-400 text-white "
-                            >
-                                About Us
-                            </button>
-                            <button
                                 onClick={() => handleNavigation("/merch")}
                                 className="py-3 px-4 hover:text-purple-400 text-white "
                             >
                                 Merch
                             </button>
                             <button
-                                onClick={() => handleNavigation("section5")}
+                                onClick={() => navigate("/events")}
                                 className="py-3 px-4 text-white hover:text-purple-400"
                             >
                                 Brochure
