@@ -469,7 +469,7 @@ export const flagshipevents = [
     clubName: "Energy",
     day: "Coming Soon",
     image: EnergyLineFollower,
-    reglink: "",
+    reglink: "https://forms.gle/HBkfRni3UheUjgjG8",
   },
   {
     eventName: "Lead The Beast",
