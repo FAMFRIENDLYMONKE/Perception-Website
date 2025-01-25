@@ -1,6 +1,6 @@
 import React,{useEffect} from "react";
 import AOS from 'aos';
-import pic from "../assets/aryan.jpg";
+import pic from "../assets/photofactory.png";
 
 function DeputyTech() {
 
@@ -17,13 +17,13 @@ function DeputyTech() {
         <div className="flex lg:justify-left items-center space-x-6
         ">
         <div className="w-[100px] bg-gray-400 h-[1px] hidden lg:block"  data-aos="fade-right"></div>
-        <h3 id="heading" className="text-5xl lg:text-4xl font-semibold font-martian-sunrise">DEPUTY TECHNICAL SECRETARY</h3>
+        <h3 id="heading" className="text-5xl lg:text-4xl font-semibold font-martian-sunrise">MEDIA PARTNER</h3>
         {/* <h1 id="aboutheading" className="text-5xl max-sm:text-center font-semibold font-martian-sunrise text-violet-600">Perception</h1> */}
         </div>
         <br />
         <div className="text-white" data-aos="fade-right">
         <p className="text-gray-400 text-lg max-w-[500px] text-justify">
-        Perception, our much-anticipated technical fest, is a celebration of innovation, learning, and collaboration. It’s a platform where ideas come to life, talents shine, and knowledge thrives. As the Deputy Technical Secretary, I am proud to witness the passion and hard work of our students and organizers who have made this event a success. From engaging workshops to exciting competitions, Perception embodies the true spirit of technical excellence. A heartfelt thank you to everyone who contributed to this remarkable journey. Let’s continue to innovate and inspire!
+        PhotoFactory, the official media partner of Perception Technical Fest, captures every moment of innovation, creativity, and excitement. As the lens behind the scenes, we ensure that each event, project, and achievement is beautifully documented and shared. Join us in celebrating the spirit of technology and artistry through our captivating visuals!
         </p>
         <br />
         <br />
