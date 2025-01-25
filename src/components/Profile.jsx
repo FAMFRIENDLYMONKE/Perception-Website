@@ -20,7 +20,7 @@ function Profile({ imag, role, name, insta, twit, lin, git, clubsite, logo }) {
             <a href={twit}><FaTwitter className="z-10 h-10 w-6"/></a>
             <a href={lin}><FaLinkedin className="z-10 h-10 w-6"/></a>
             <a href={git}><FaGithub className="z-10 h-10 w-6"/></a>
-            <a className="mt-[7px] h-[27px]" href={clubsite}><img src={logo} /></a>
+            {/* <a className="mt-[7px] h-[27px]" href={clubsite}><img src={logo} /></a> */}
             </div>
           </div>
         </div>
