@@ -27,7 +27,7 @@ function OurTeam() {
         data-aos="fade-right"
       >
         {profiles.map((profile, idx) => (
-          <Pxrofile
+          <Profile
             key={idx}
             imag={profile.imag}
             role={profile.role}
