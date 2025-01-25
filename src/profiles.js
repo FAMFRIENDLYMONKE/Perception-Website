@@ -1,4 +1,4 @@
-import zairza from './assets/zairza.png'
+// import zairza from './assets/zairza.png'
 export const profiles=[
     {
         imag:"https://iili.io/2s0hOru.md.jpg",
@@ -9,7 +9,7 @@ export const profiles=[
         lin:"https://www.linkedin.com/in/swastik-giri-b70650238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         git:"",
         clubsite:"https://www.zairza.co.in",
-        logo:zairza
+        // logo:zairza
     },
     {
         imag:"https://iili.io/2s0Nv7s.jpg",
@@ -19,7 +19,7 @@ export const profiles=[
         twit:"",
         lin:"https://www.linkedin.com/in/rahul-agarwalla-b134a1205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         clubsite:"https://www.zairza.co.in",
-        logo:zairza,
+        // logo:zairza,
         git:"https://github.com/shanks-rahul",
     },
     {
@@ -31,7 +31,7 @@ export const profiles=[
         lin:"https://www.linkedin.com/in/suvesh-samantaray/",
         git:"",
         clubsite:"https://www.zairza.co.in",
-        logo:zairza
+        // logo:zairza
     },
     {
         imag:"https://iili.io/2s0ODFt.jpg",
@@ -42,7 +42,7 @@ export const profiles=[
         lin:"https://www.linkedin.com/in/abhinash-pritiraj-85ab9226b/",
         git:"https://www.github.com/abhinash04/",
         clubsite:"https://www.zairza.co.in",
-        logo:zairza
+        // logo:zairza
     },
     {
         imag:"https://iili.io/2s0iCw7.jpg",
@@ -53,6 +53,6 @@ export const profiles=[
         lin:"https://www.linkedin.com/in//",
         git:"https://github.com/puneetdhdhttps://www.linkedin.com/in/abhinash-pritiraj-85ab9226b/",
         clubsite:"https://www.zairza.co.in",
-        logo:zairza
+        // logo:zairza
     },
 ]
