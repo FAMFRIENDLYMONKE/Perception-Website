@@ -62,12 +62,12 @@ const FlippableCard = ({ event }) => {
         </div>
       </div>
     </div>
-    <SpringModal isOpen={isOpen} setIsOpen={setIsOpen} title={event.eventName} desc={event.description} date={event.date} st={event.startTime} et={event.endTime} cb={event.clubName} register={event.reglink}/>
+    <SpringModal isOpen={isOpen} setIsOpen={setIsOpen} title={event.eventName} desc={event.description} date={event.date} st={event.startTime} et={event.endTime} cb={event.clubName} logo={event.logo} register={event.reglink}/>
     </>
   );
 };
 
-const SpringModal = ({ isOpen, setIsOpen, title, desc, date, st, et, cb, register}) => {
+const SpringModal = ({ isOpen, setIsOpen, title, desc, date, st, et, cb, register, logo}) => {
   return (
     <AnimatePresence>
       {isOpen && (
@@ -87,8 +87,8 @@ const SpringModal = ({ isOpen, setIsOpen, title, desc, date, st, et, cb, registe
           >
             <FiAlertCircle className="text-white/10 rotate-12 text-[250px] absolute z-0 -top-24 -left-24" />
             <div className="relative z-10">
-              <div className="bg-white w-16 h-16 mb-2 rounded-full text-3xl text-indigo-600 grid place-items-center mx-auto">
-                <FiAlertCircle />
+              <div className="bg-inherit bg-blend-mask w-20 h-20 mb-2 rounded-xl text-3xl text-indigo-600 grid place-items-center mx-auto">
+                <img src={logo} alt="logo" className="w-14 h-14" />
               </div>
               <h3 className="text-3xl font-bold text-center mb-2 font-ethnocentric">
                 {title}

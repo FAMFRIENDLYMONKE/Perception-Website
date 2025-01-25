@@ -41,6 +41,15 @@ import {
   ZairzaWearableTech,
 } from "./assets";
 
+import aerospacelogo from "./assets/aerologo.png";
+import zairzalogo from "./assets/zairzalogo.webp";
+import spectrumlogo from "./assets/spectrumlogo.png";
+import saelogo from "./assets/saelogo.png";
+import biozologo from "./assets/biozologo.png";
+import civiconlogo from "./assets/civiconlogo.png";
+import energylogo from "./assets/energylogo.png";
+
+
 export const events28 = [
   {
     eventName: "Bounty Hunter",
@@ -437,12 +446,13 @@ export const flagshipevents = [
     short:"A fun filled robotic soccer extravaganza",
     description:
       "Gear up for the ultimate showdown of brains and brawn—Robo Soccer! This action-packed event combines cutting-edge tech with the thrill of the beautiful game. Participants program their robots to dominate a miniature soccer arena, strategizing every kick, pass, and block. The goal? Outsmart, outplay, and outscore the competition!",
-    date: "Coming Soon",
-    startTime: "Coming Soon",
-    endTime: "Coming Soon",
+    date: "28-01-2025",
+    startTime: "11:00 AM",
+    endTime: "5:00 PM",
     clubName: "Spectrum",
-    day: "Coming Soon",
+    day: "Day-1",
     image: SpectrumRoboSoccer,
+    logo:spectrumlogo,
     reglink: "",
   },
   {
@@ -450,11 +460,12 @@ export const flagshipevents = [
     short:"A thrilling race against time and obstacles",
     description:
       "Design bots to navigate a hurdle-filled track, scoring points at checkpoints. Falling bots return to the nearest checkpoint, losing points. Qualifiers are based on the fastest times, and the final round has a 10-minute limit. Bots must weigh under 5 kg. Finish fast, minimize damage, and maximize points.",
-      date: "Coming Soon",
-      startTime: "Coming Soon",
-      endTime: "Coming Soon",
+      date: "28-01-2025",
+      startTime: "10:00 AM",
+      endTime: "5:00 PM",
       clubName: "Zairza",
-      day: "Coming Soon",
+      logo: zairzalogo,
+      day: "Day-1",
     image: RescueRangers,
     reglink: "https://forms.gle/vC5oreUZ9X5G47Uq6",
   },
@@ -463,38 +474,41 @@ export const flagshipevents = [
     short:
       "Can Your Bot Crack the Maze? Is it the ultimate Maze Runner",
     description:"",
-    date: "Coming Soon",
-    startTime: "Coming Soon",
-    endTime: "Coming Soon",
+    date: "28-01-2025",
+    startTime: "2:00 PM",
+    endTime: "5:00 PM",
     clubName: "Energy",
-    day: "Coming Soon",
+    day: "Day-1",
     image: EnergyLineFollower,
     reglink: "https://forms.gle/HBkfRni3UheUjgjG8",
+    logo:energylogo
   },
   {
     eventName: "Lead The Beast",
-    short: "A competitive programming contest for coding enthusiasts.",
-    description: "A competitive programming contest for coding enthusiasts",
-    date: "Coming Soon",
-    startTime: "Coming Soon",
-    endTime: "Coming Soon",
+    short: "A thrilling Race in the famed Blue Jay ATV",
+    description: "Participants will be given a chance to drive the Blue Jay ATV and the fastest one wins",
+    date: "28,29,30-01-2025",
+    startTime: "10:00 AM",
+    endTime: "5:00 PM",
     clubName: "SAE",
-    day: "Coming Soon",
+    day: "Day-1,2,3",
     image: SAELeadTheBeast,
     reglink: "https://forms.gle/mGmwNX6tMxstQMvv7",
+    logo:saelogo
   },
   {
     eventName: "H2GO",
     short:
       "Take your Rocket to new Horizons",
     description: "Build Your Own Water Pressure propelled rocket can you beat the odds to reach the sky. Winner Takes it All",
-    date: "Coming Soon",
-    startTime: "Coming Soon",
-    endTime: "Coming Soon",
+    date: "29-01-2025",
+    startTime: "1:00 PM",
+    endTime: "5:00 PM",
     clubName: "Aerospace",
-    day: "Coming Soon",
+    day: "Day-2",
     image: AerospaceTech,
     reglink: "https://forms.gle/QXat9XnCmopcXTzn9",
+    logo:aerospacelogo
   },
   {
     eventName: "Spark Your Thoughts",
@@ -508,6 +522,7 @@ export const flagshipevents = [
     day: "Coming Soon",
     image: CompetitiveProgramming,
     reglink: "",
+    logo:biozologo
   },
   {
     eventName: "Peek-a-boo",
@@ -520,18 +535,20 @@ export const flagshipevents = [
     day: "Coming Soon",
     image: CompetitiveProgramming,
     reglink: "",
+    logo:biozologo
   },
   {
-    eventName: "Civicon",
-    short:"Test your Civil Engineering SKills",
-    description: "Test your Civil Engineering SKills",
-    date: "Coming Soon",
-    startTime: "Coming Soon",
-    endTime: "Coming Soon",
+    eventName: "Bridge Making",
+    short:"Construct a Bridge that can withstand the force of nature",
+    description: "Test your Engineering Skills in this competetion of durability and rigour. Teams have to build a bridge in a given time with ice cream sticks",
+    date: "30-01-2025",
+    startTime: "10:00 AM",
+    endTime: "5:00 PM",
     clubName: "Civicon",
-    day: "Coming Soon",
+    day: "Day-3",
     image: CompetitiveProgramming,
     reglink: "",
+    logo:civiconlogo
   },
 ];
 
