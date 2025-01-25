@@ -149,7 +149,7 @@ const Navbar = ({ name }) => {
                         </li>
                         <li>
                             <button
-                                onClick={() => window.open("https://drive.google.com/file/d/1hR8VkdtJCaEfgmSo5vaEfKrJacDgeHDb/view?usp=sharing", "_blank")}
+                                onClick={() => window.open("https://drive.google.com/file/d/1XghSEiR2DY2gH_GjW_SpJ3Ei8XdaINvQ/view?usp=sharing", "_blank")}
                                 className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
                             >
                                 Brochure
