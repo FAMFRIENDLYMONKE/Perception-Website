@@ -8,11 +8,13 @@ import Merchandise from '../components/Merchandise'
 import StatisticMarque from '../components/StatisticMarque'
 import Techsec from '../components/Techsec'
 import DeputyTech from '../components/DeputyTech'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function Home() {
   return (
     <div>
         {/* <Drawer/> */}
+        <SpeedInsights />
         <Navbar/>
         <Section1/>
         <SponserMarque/>

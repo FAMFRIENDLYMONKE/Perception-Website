@@ -9,6 +9,7 @@ import Merch from "./Pages/Merch";
 import FlagshipEvents from "./Pages/FlagshipEvents";
 import Card from "./components/Card";
 
+
 function App() {
   return (
     <Routes>
