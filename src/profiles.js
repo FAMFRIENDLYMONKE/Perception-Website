@@ -51,7 +51,18 @@ export const profiles=[
         insta:"https://www.instagram.com/puneet_344/",
         twit:"https://x.com/Puneetkrdhal?t=1GbeqpFW6aTrufBqBzBT8w&s=08 ",
         lin:"https://www.linkedin.com/in//",
-        git:"https://github.com/puneetdhdhttps://www.linkedin.com/in/abhinash-pritiraj-85ab9226b/",
+        git:"https://github.com/puneetdhd",
+        clubsite:"https://www.zairza.co.in",
+        // logo:zairza
+    },
+    {
+        imag:"",
+        role:"Developer",
+        name:"Arbin Mohapatra",
+        insta:"",
+        twit:"",
+        lin:"",
+        git:"",
         clubsite:"https://www.zairza.co.in",
         // logo:zairza
     },

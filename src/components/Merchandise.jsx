@@ -16,13 +16,13 @@ function Merchandise() {
         <div className="flex lg:justify-left items-center space-x-6
         ">
         <div className="w-[100px] bg-gray-400 h-[1px] hidden lg:block" data-aos="fade-left"></div>
-        <h3 id="heading" className="text-4xl lg:text-4xl font-semibold font-martian-sunrise">MERCHANDISE</h3>
+        <h3 id="heading" className="text-3xl lg:text-3xl font-semibold font-martian-sunrise tracking-wide">MERCHANDISE</h3>
         </div>
         <br />
         <div className="text-white"  data-aos="fade-left">
         {/* <h1 id="aboutheading" className="text-5xl max-lg:text-center font-semibold font-martian-sunrise text-violet-600">Perception</h1> */}
         {/* <br /> */}
-        <p className="text-gray-400 text-lg max-w-[500px] text-justify">
+        <p className="text-gray-400 text-md max-w-[500px] text-justify">
         Get Ready to Flaunt the Fest Spirit! <br/>
         The official Perception T-Shirts & Hoodies are here! Grab your exclusive merch and wear the vibe of innovation and creativity. Limited stock, unlimited swag—don’t miss out! Available now, only for a short time. 
         Get yours before it’s gone!

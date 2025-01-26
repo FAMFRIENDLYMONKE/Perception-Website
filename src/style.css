@@ -177,3 +177,16 @@ svg text {
     height: 100px;
   }
 }
+
+
+#navbar {
+  font-family: "Inter", sans-serif; /*Inter font*/
+}
+#navbar-cta {
+  position: relative;
+  top: 5px;
+}
+.nav-links {
+  color: #e8dcdc;
+  text-decoration: none;
+}
