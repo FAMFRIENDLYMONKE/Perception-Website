@@ -30,8 +30,22 @@ function OurTeam() {
           <Profile
             key={idx}
             imag={profile.imag}
-            role={profile.role}
-            name={profile.name}
+            role={
+              <span
+                style={{ fontWeight: '500' }}
+                className="font-oswald text-lg"
+              >
+                {profile.role}
+              </span>
+            }
+            name={
+              <span
+                style={{ fontWeight: '700' }}
+                className="text-2xl"
+              >
+                {profile.name}
+              </span>
+            }
             insta={profile.insta}
             twit={profile.twit}
             lin={profile.lin}

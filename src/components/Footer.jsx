@@ -24,7 +24,7 @@ const Footer = () => {
                                 title="Wikipedia"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                                className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-violet-600 focus:bg-violet-600"
                             >
                                 <FaWikipediaW className="w-4 h-4" />
                             </a>
@@ -35,7 +35,7 @@ const Footer = () => {
                                 title="Facebook"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                                className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-violet-600 focus:bg-violet-600"
                             >
                                 <FaFacebookF className="w-4 h-4" />
                             </a>
@@ -46,7 +46,7 @@ const Footer = () => {
                                 title="Instagram"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                                className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-violet-600 focus:bg-violet-600"
                             >
                                 <FaInstagram className="w-4 h-4" />
                             </a>
@@ -57,7 +57,7 @@ const Footer = () => {
                                 title="LinkedIn"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                                className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-violet-600 focus:bg-violet-600"
                             >
                                 <FaLinkedinIn className="w-4 h-4" />
                             </a>
@@ -73,7 +73,7 @@ const Footer = () => {
                                 <a
                                 target="_blank"
                                     href="https://www.outr.ac.in"
-                                    className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
+                                    className="text-base text-white transition-all duration-200 hover:text-violet-600 focus:text-violet-600 no-underline"
                                 >
                                     College Website
                                 </a>
@@ -82,7 +82,7 @@ const Footer = () => {
                                 <a
                                 target="_blank"
                                     href="https://www.perceptionoutr.in"
-                                    className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
+                                    className="text-base text-white transition-all duration-200 hover:text-violet-600 focus:text-violet-600 no-underline"
                                 >
                                     Perception 2k24
                                 </a>
@@ -91,7 +91,7 @@ const Footer = () => {
                                 <a
                                 target="_blank"
                                     href="mailto:secretarytechnical@gmail.com"
-                                    className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
+                                    className="text-base text-white transition-all duration-200 hover:text-violet-600 focus:text-violet-600 no-underline"
                                 >
                                     Contact Us
                                 </a>
@@ -104,7 +104,7 @@ const Footer = () => {
                                 <a
                                     target="_blank"
                                     href="https://maps.app.goo.gl/Vrb3Gwfb9h7vJGoC7"
-                                    className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
+                                    className="text-base text-white transition-all duration-200 hover:text-violet-600 focus:text-violet-600 no-underline"
                                 >
                                     How To Reach
                                 </a>
@@ -113,7 +113,7 @@ const Footer = () => {
                                 <a
                                     target="_blank"
                                     href="https://forms.gle/K1p8kGoyhyY3fFuq5"
-                                    className="text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600 no-underline"
+                                    className="text-base text-white transition-all duration-200 hover:text-violet-600 focus:text-violet-600 no-underline"
                                 >
                                     Become our Partner
                                 </a>

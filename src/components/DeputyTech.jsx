@@ -5,11 +5,11 @@ import pic from "../assets/photofactory.png";
 function DeputyTech() {
 
   useEffect(() => {
-    AOS.init({ duration: 1000 }); // Initialize AOS with a duration of 1000ms
+    AOS.init({ duration: 1000 });
   }, [])
 
   return (
-    <div className="w-full mt-10 min-h-[700px] flex flex-col-reverse lg:flex-row items-center justify-around lg:gap-0 gap-6" id="section4">
+    <div className="w-full mt-10 min-h-[500px] flex flex-col-reverse lg:flex-row items-center justify-around lg:gap-0 gap-6" id="section4">
       <div className="lg:w-[45%] w-[80%] flex justify-around" data-aos="fade-left">
         <img src={pic} alt="pic" className="w-full sm:w-[350px] md:w-[400px] lg:w-[450px] h-auto object-cover" />
       </div>

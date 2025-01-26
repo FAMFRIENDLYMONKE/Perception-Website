@@ -10,7 +10,7 @@ function Techsec() {
   }, [])
 
   return (
-    <div className="w-full mt-10 min-h-[700px] flex flex-col-reverse lg:flex-row items-center justify-around lg:gap-0 gap-6">
+    <div className="w-full mt-10 min-h-[500px] flex flex-col-reverse lg:flex-row items-center justify-around lg:gap-0 gap-6">
           <div className="lg:w-[45%] w-[80%] xl:ml-32 my-auto flex flex-col items-center lg:block">
             <div className="flex lg:justify-left items-center space-x-6
             ">
