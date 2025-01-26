@@ -475,7 +475,7 @@ export const flagshipevents = [
       "Can Your Bot Crack the Maze? Is it the ultimate Maze Runner",
     description:"",
     date: "28-01-2025",
-    startTime: "2:00 PM",
+    startTime: "12:00 NOON",
     endTime: "5:00 PM",
     clubName: "Energy",
     day: "Day-1",
@@ -538,7 +538,7 @@ export const flagshipevents = [
     logo:biozologo
   },
   {
-    eventName: "Bridge Making",
+    eventName: "Frame",
     short:"Construct a Bridge that can withstand the force of nature",
     description: "Test your Engineering Skills in this competetion of durability and rigour. Teams have to build a bridge in a given time with ice cream sticks",
     date: "30-01-2025",
