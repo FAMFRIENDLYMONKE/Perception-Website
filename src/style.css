@@ -19,7 +19,14 @@
 
 :root{
     background: #000212;
+    overflow-x: hidden;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
 }
+:root::-webkit-scrollbar {
+  display: none;
+}
+
 .wrapper {
   background-color: transparent;
 }
@@ -70,6 +77,7 @@ svg text {
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     display: inline-block;
+    margin-left: 0;
 }
 #shimmer-btn {
     position: relative;
