@@ -453,7 +453,7 @@ export const flagshipevents = [
     day: "Day-1",
     image: SpectrumRoboSoccer,
     logo:spectrumlogo,
-    reglink: "",
+    reglink: "https://forms.gle/ye78P578MBjapqAm9",
   },
   {
     eventName: "Rescue Rangers",
