@@ -1,281 +1,172 @@
-// import React, { useEffect, useState } from 'react'; 
+import React, { useEffect, useState } from 'react'; 
 
-// import { NavLink, useNavigate, useLocation,Link } from "react-router-dom"; 
-// import logo from '../assets/logo.png'; 
-// import SponserMarque from './SponserMarque';
-
-// const Navbar = ({ name }) => {
-
-//     const [isMenuOpen, setIsMenuOpen] = useState(false);
-//     const [hasBackground, setHasBackground] = useState(false);
-
-//     const toggleMenu = () => {
-//         setIsMenuOpen(!isMenuOpen);
-//         document.body.style.overflow = isMenuOpen ? "" : "hidden";
-//     };
-
-//     const closeMenu = () => {
-//         setIsMenuOpen(false);
-//         document.body.style.overflow = "";
-//     };
-
-//     const navigate = useNavigate();
-//     const location=useLocation();
-
-//     // Handle scroll to toggle navbar background
-//     useEffect(() => {
-//         const handleScroll = () => {
-//             const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
-//             if (window.scrollY > vh) {
-//                 setHasBackground(true);
-//             } else {
-//                 setHasBackground(false);
-//             }
-//         };
-
-//         window.addEventListener("scroll", handleScroll);
-
-//         return () => {
-//             window.removeEventListener("scroll", handleScroll);
-//         };
-//     }, []);
-
-//     const handleNavigation = (sectionId) => {
-//         if(location.pathname!='/'){
-//             navigate('/');
-//         }
-//         const section = document.getElementById(sectionId);
-//         if (section) {
-//             section.scrollIntoView({ behavior: "smooth", block: "start" });
-//         }
-//         closeMenu();
-//     };
-
-//     return (
-//         <header
-//             className={`fixed top-0 z-50 w-full transition-colors duration-300 ${
-//                 hasBackground ? "bg-[#000212]" : "bg-transparent"
-//             }`}
-//         >
-//             <nav className="flex flex-row justify-between items-center lg:p-5 md:p-4 sm:p-5">
-//                 <div id="header-logo" className="relative tracking-wider">
-//                     <NavLink to="/" className="flex cursor-pointer">
-//                         <img src={logo} alt="Perception" className={`max-sm:px-2 max-sm:mt-2 h-10 sm:h-14 ${isMenuOpen ? 'hidden' : 'visible'}`} />
-//                     </NavLink>
-//                 </div>
-
-//                 {/* Hamburger Menu Button */}
-//                 <button
-//                     className={`text-white md:hidden px-2 ${isMenuOpen ? 'hidden' : 'visible'}`}
-//                     aria-label="Toggle mobile menu"
-//                     onClick={toggleMenu}
-//                 >
-//                     {isMenuOpen ? (
-//                             <svg
-//                                 xmlns="http://www.w3.org/2000/svg"
-//                                 className="h-8 w-8"
-//                                 fill="none"
-//                                 viewBox="0 0 24 24"
-//                                 stroke="currentColor"
-//                             >
-//                                 <path
-//                                     strokeLinecap="round"
-//                                     strokeLinejoin="round"
-//                                     strokeWidth={2}
-//                                     d="M6 18L18 6M6 6l12 12"
-//                                 />
-//                             </svg>
-
-//                     ) : (
-//                         <svg
-//                             xmlns="http://www.w3.org/2000/svg"
-//                             className="h-8 w-8"
-//                             fill="none"
-//                             viewBox="0 0 24 24"
-//                             stroke="currentColor"
-//                         >
-//                             <path
-//                                 strokeLinecap="round"
-//                                 strokeLinejoin="round"
-//                                 strokeWidth={2}
-//                                 d="M4 6h16M4 12h16M4 18h16"
-//                             />
-//                         </svg>
-//                     )}
-//                 </button>
-
-//                 {/* Desktop Menu */}
-//                 <div
-//                     className={`items-center justify-between ${
-//                         isMenuOpen ? "flex" : "hidden"
-//                     } w-full md:flex md:w-auto md:order-1`}
-//                     id="navbar-cta"
-//                 >
-//                     <ul className="nav-list hidden md:flex space-x-8 font-bold">
-//                         <li>
-//                             <button
-                                
-//                                 onClick={() => navigate("/events")}
-                                
-//                                 className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
-//                             >
-//                                 Explore Events
-//                             </button>
-//                         </li>
-//                         {/* <li>
-//                             <button
-                                
-//                                 onClick={() => handleNavigation("section3")}
-//                                 className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
-//                             >
-//                                 Our Sponsors
-//                             </button>
-//                         </li> */}
-//                         {/* <li>
-//                             <button
-//                                 onClick={() => handleNavigation("section4")}
-//                                 className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
-//                             >
-//                                 About Us
-//                             </button>
-//                         </li> */}
-//                         <li>
-//                             <button
-//                                 onClick={() => navigate("/merch")}
-//                                 className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
-//                             >
-//                                 Merch
-//                             </button>
-//                         </li>
-//                         <li>
-//                             <button
-//                                 onClick={() => window.open("https://drive.google.com/file/d/1XghSEiR2DY2gH_GjW_SpJ3Ei8XdaINvQ/view?usp=sharing", "_blank")}
-//                                 className="nav-links block text-white rounded hover:text-purple-400 md:bg-transparent cursor-pointer"
-//                             >
-//                                 Brochure
-//                             </button>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </nav>
-
-//             {/* Mobile Menu */}
-//             {(
-//                 <div
-//                     id="mobile-menu"
-//                     className={`fixed transition ease-in-out duration-500 inset-0 z-50 ${isMenuOpen?"translate-x-0":" delay-200 translate-x-full"}`}
-//                 >
-//                     <div
-//                         className={`absolute inset-0 transition transition-color bg-black duration-300 ease-in-out opacity-0 ${isMenuOpen ? " delay-500 opacity-50" : "opacity-0"}`}
-//                         onClick={closeMenu}
-//                     ></div>
-//                     <div className="absolute right-0 top-0 h-full w-64 bg-[#000212] text-white shadow-lg">
-//                         <div className="flex justify-between items-center p-4 border-b border-gray-700">
-//                             <h3 id="heading" className="mt-4 ml-4 text-lg font-bold">MENU</h3>
-//                             <button
-//                                 onClick={closeMenu}
-//                                 className="mt-2 mr-2 rounded-full hover:bg-gray-800 flex"
-//                             >
-//                                 <svg
-//                                     className="w-8 h-8"
-//                                     fill="none"
-//                                     stroke="currentColor"
-//                                     viewBox="0 0 24 24"
-//                                 >
-//                                     <path
-//                                         strokeLinecap="round"
-//                                         strokeLinejoin="round"
-//                                         strokeWidth={2}
-//                                         d="M6 18L18 6M6 6l12 12"
-//                                     />
-//                                 </svg>
-//                             </button>
-//                         </div>
-//                         <nav className="flex flex-col p-4">
-//                             <button
-//                                 onClick={() => navigate("/events")}
-//                                 className="py-3 px-4 hover:text-purple-400 text-white "
-//                             >
-//                                 Explore Events
-//                             </button>
-//                             <button
-//                                 onClick={() => handleNavigation("/merch")}
-//                                 className="py-3 px-4 hover:text-purple-400 text-white "
-//                             >
-//                                 Merch
-//                             </button>
-//                             <button
-//                                 onClick={() => window.open("https://drive.google.com/file/d/1JHHs0Z-iaC2mC5C083VSkT89m7Vakvsa/view?usp=sharing", "_blank")}
-//                                 className="py-3 px-4 text-white hover:text-purple-400"
-//                             >
-//                                 Brochure
-//                             </button>
-//                         </nav>
-//                     </div>
-//                 </div>
-//             )}
-//         </header>
-//     );
-// };
-
-// export default Navbar;
-
-import React from 'react';  
-import { NavLink } from "react-router-dom"; 
+import { NavLink, useNavigate, useLocation,Link } from "react-router-dom"; 
 import logo from '../assets/logo.png'; 
+import SponserMarque from './SponserMarque';
 
-const Navbar = () => {
-  return (
-    <div className="w-full fixed z-50">
-      <nav
-        className="h-15 bg-gray-400 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 mx-[9vw] my-[3vmax] max-w-[400px]:mx-[1vw] custom-mx"
-        id="navbar"
-      >
-        <div className="max-w-screen-xl flex items-center justify-between mx-auto p-3">
-          {/* Logo */}
-          <NavLink
-            to="/"
-            className="flex items-center space-x-3 rtl:space-x-reverse cursor-pointer"
-          >
-            <img src={logo} className="h-8" alt="navbarlogo" />
-          </NavLink>
+const Navbar = ({ name }) => {
 
-          {/* Navigation Links */}
-          <ul className="flex font-semibold text-lg space-x-8">
-            <li>
-              <NavLink
-                to="/events"
-                className="nav-links text-white rounded hover:bg-gray-900 cursor-pointer"
-              >
-                Events
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/merch"
-                className="nav-links text-white rounded hover:bg-gray-900 cursor-pointer"
-              >
-                Merch
-              </NavLink>
-            </li>
-            <li>
-              <button
-                onClick={() =>
-                  window.open(
-                    "https://drive.google.com/file/d/1XghSEiR2DY2gH_GjW_SpJ3Ei8XdaINvQ/view?usp=sharing",
-                    "_blank"
-                  )
-                }
-                className="nav-links text-white rounded hover:bg-gray-900 cursor-pointer"
-              >
-                Brochure
-              </button>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  );
+    const [hasBackground, setHasBackground] = useState(false);
+
+    const navigate = useNavigate();
+    const location=useLocation();
+
+    // Handle scroll to toggle navbar background
+    useEffect(() => {
+        const handleScroll = () => {
+            const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+            if (window.scrollY > vh) {
+                setHasBackground(true);
+            } else {
+                setHasBackground(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+    const handleNavigation = (sectionId) => {
+        if(location.pathname!='/'){
+            navigate('/');
+        }
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+        closeMenu();
+    };
+
+    return (
+        <header
+            className={`fixed py-2 px-4 top-0 z-50 w-full transition-colors duration-300 ${
+                hasBackground ? "bg-[#000212]" : "bg-transparent"
+            }`}
+        >
+            <nav className="flex flex-row justify-between items-center lg:p-5 md:p-4 sm:p-5">
+                <div id="header-logo" className="relative tracking-wider">
+                    <NavLink to="/" className="flex cursor-pointer">
+                        <img src={logo} alt="Perception" className={`max-sm:px-2 max-sm:mt-2 h-10 sm:h-14 visible `} />
+                    </NavLink>
+                </div>
+
+                {/* Desktop Menu */}
+                <div
+                    className={`items-center justify-between flex w-auto md:order-1`}
+                    id="navbar-cta"
+                >
+                    <ul className="nav-list flex space-x-3 sm:space-x-8 font-bold">
+                        <li>
+                            <button
+                                
+                                onClick={() => navigate("/events")}
+                                
+                                className="nav-links block text-white rounded md:text-lg hover:text-violet-600 md:bg-transparent cursor-pointer"
+                            >
+                                Events
+                            </button>
+                        </li>
+                        {/* <li>
+                            <button
+                                
+                                onClick={() => handleNavigation("section3")}
+                                className="nav-links block text-white rounded md:text-lg hover:text-violet-600 md:bg-transparent cursor-pointer"
+                            >
+                                Our Sponsors
+                            </button>
+                        </li> */}
+                        {/* <li>
+                            <button
+                                onClick={() => handleNavigation("section4")}
+                                className="nav-links block text-white rounded md:text-lg hover:text-violet-600 md:bg-transparent cursor-pointer"
+                            >
+                                About Us
+                            </button>
+                        </li> */}
+                        <li>
+                            <button
+                                onClick={() => navigate("/merch")}
+                                className="nav-links block text-white rounded md:text-lg hover:text-violet-600 md:bg-transparent cursor-pointer"
+                            >
+                                Merch
+                            </button>
+                        </li>
+                        <li>
+                            <button
+                                onClick={() => window.open("https://drive.google.com/file/d/1XghSEiR2DY2gH_GjW_SpJ3Ei8XdaINvQ/view?usp=sharing", "_blank")}
+                                className="nav-links block text-white rounded md:text-lg hover:text-violet-600 md:bg-transparent cursor-pointer"
+                            >
+                                Brochure
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    );
 };
 
 export default Navbar;
+
+// import React from 'react';  
+// import { NavLink } from "react-router-dom"; 
+// import logo from '../assets/logo.png'; 
+
+// const Navbar = () => {
+//   return (
+//     <div className="w-full fixed z-50">
+//       <nav
+//         className="h-15 bg-gray-400 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 mx-[9vw] my-[3vmax] max-w-[400px]:mx-[1vw] custom-mx"
+//         id="navbar"
+//       >
+//         <div className="max-w-screen-xl flex items-center justify-between mx-auto p-3">
+//           {/* Logo */}
+//           <NavLink
+//             to="/"
+//             className="flex items-center space-x-3 rtl:space-x-reverse cursor-pointer"
+//           >
+//             <img src={logo} className="h-8" alt="navbarlogo" />
+//           </NavLink>
+
+//           {/* Navigation Links */}
+//           <ul className="flex font-semibold text-lg space-x-8">
+//             <li>
+//               <NavLink
+//                 to="/events"
+//                 className="nav-links text-white rounded hover:bg-gray-900 cursor-pointer"
+//               >
+//                 Events
+//               </NavLink>
+//             </li>
+//             <li>
+//               <NavLink
+//                 to="/merch"
+//                 className="nav-links text-white rounded hover:bg-gray-900 cursor-pointer"
+//               >
+//                 Merch
+//               </NavLink>
+//             </li>
+//             <li>
+//               <button
+//                 onClick={() =>
+//                   window.open(
+//                     "https://drive.google.com/file/d/1XghSEiR2DY2gH_GjW_SpJ3Ei8XdaINvQ/view?usp=sharing",
+//                     "_blank"
+//                   )
+//                 }
+//                 className="nav-links text-white rounded hover:bg-gray-900 cursor-pointer"
+//               >
+//                 Brochure
+//               </button>
+//             </li>
+//           </ul>
+//         </div>
+//       </nav>
+//     </div>
+//   );
+// };
+
+// export default Navbar;
