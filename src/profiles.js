@@ -58,7 +58,7 @@ export const profiles=[
     {
         imag:"",
         role:"Developer",
-        name:"Arbin Mohapatra",
+        name:"Arbin Mahapatra",
         insta:"",
         twit:"",
         lin:"",
