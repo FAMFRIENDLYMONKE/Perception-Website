@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import { NavLink, useNavigate, useLocation,Link } from "react-router-dom"; 
 import logo from '../assets/logo.png'; 
-import SponserMarque from './SponserMarque';
+// import SponserMarque from './SponserMarque';
 
 const Navbar = ({ name }) => {
 

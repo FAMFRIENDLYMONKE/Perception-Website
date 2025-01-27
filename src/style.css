@@ -186,6 +186,11 @@ svg text {
   }
 }
 
+@media screen and (max-width:380px) {
+  #modalText{
+    font-size: 10px;
+  }
+}
 
 #navbar {
   font-family: "Inter", sans-serif; /*Inter font*/

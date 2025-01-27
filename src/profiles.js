@@ -1,7 +1,7 @@
 // import zairza from './assets/zairza.png'
 export const profiles=[
     {
-        imag:"https://iili.io/2s0hOru.md.jpg",
+        imag:"https://iili.io/2LW8tHP.md.jpg",
         role:"Developer",
         name:"Swastik Giri",
         insta:"https://www.instagram.com/.swastik._?igsh=d2E3OTBybTRqYXhk",
@@ -45,7 +45,7 @@ export const profiles=[
         // logo:zairza
     },
     {
-        imag:"https://iili.io/2s0iCw7.jpg",
+        imag:"https://iili.io/2LW8QUB.md.jpg",
         role:"Developer",
         name:"Puneet Dhal",
         insta:"https://www.instagram.com/puneet_344/",
