@@ -94,23 +94,23 @@ const SpringModal = ({ isOpen, setIsOpen, title, desc, date, st, et, cb, registe
                 {title}
               </h3>
               <p className="text-left mb-6 font-mono">{desc}</p>
-              <div className="flex justify-between font-sans items-end mt-4 mb-4">
+              <div className="flex justify-between font-sans items-end mt-4 mb-4" id="modalText">
                 {/* Bottom-left section */}
                 <div className="text-left">
-                  <p className="text-lg font-medium text-white">
+                  <p className="text-base font-medium text-white">
                     <strong>Club:</strong> {cb}
                   </p>
-                  <p className="text-lg font-medium text-white">
+                  <p className="text-base font-medium text-white">
                     <strong>Date:</strong> {date}
                   </p>
                 </div>
                 
                 {/* Bottom-right section */}
                 <div className="text-right">
-                  <p className="text-lg font-medium text-white">
+                  <p className="text-base font-medium text-white">
                     <strong>Start Time:</strong> {st}
                   </p>
-                  <p className="text-lg font-medium text-white">
+                  <p className="text-base font-medium text-white">
                     <strong>End Time:</strong> {et}
                   </p>
                 </div>
