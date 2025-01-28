@@ -16,6 +16,7 @@ const Card = () => {
 const FlippableCard = ({ event }) => {
   // const [isFlipped, setIsFlipped] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
   // const toggleFlip = () => {
   //   setIsFlipped(!isFlipped);
@@ -24,44 +25,41 @@ const FlippableCard = ({ event }) => {
   return (
     <>
     <div
-      className="relative w-full mx-auto mt-12 perspective"
-      style={{ maxWidth: "350px" }}
-    >
-      <div
-        className="relative w-full h-[450px]"
+        className="relative w-full mx-auto mt-12 perspective"
+        style={{ maxWidth: "350px" }}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
       >
-        {/* Front Face */}
         <div
-          className="absolute w-full h-full bg-white rounded-xl shadow-lg"
+          className={`relative w-full bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 ease-in-out ${
+            isHovered ? "transform -translate-y-2" : ""
+          }`}
         >
-          <div className="flex mx-auto relative h-[450px]">
+          <div className="relative h-48 w-full">
             <img
-              src={event.image}
+              src={event.image || "/placeholder.svg?height=200&width=400"}
               alt={event.eventName}
-              className="rounded-lg max-w-[100%]"
+              className="w-full h-full object-cover"
             />
-            <div className="absolute bottom-0 rounded-lg w-fit leading-tight">
-              <h1 className="text-2xl font-bold text-white relative top-4">
-                <p className="bg-black bg-opacity-75 px-4 py-1 rounded-tr-2xl inline-block">
-                  {event.eventName}
-                </p>
-              </h1>
-              <p className="mt-4 text-xs rounded-tr-2xl text-gray-300 max-w-[300px] bg-black bg-opacity-75 py-2 px-4">
-                {event.short}
-              </p>
-              <div className="bg-black bg-opacity-75 px-4 py-2 rounded-br-2xl rounded-bl-lg">
-                <button
-                  className="px-16 py-2 bg-black text-white rounded-full hover:bg-gray-800"
-                  onClick={() => setIsOpen(true)}
-                >
-                  Details
-                </button>
-              </div>
+          </div>
+          <div className="p-6 border-b-2 border-violet-500">
+            <h3 className="text-xl font-bold mb-2 text-gray-800 uppercase">{event.eventName}</h3>
+            <p className="text-gray-600 mb-4">{event.short}</p>
+            <div className="relative group">
+              <button
+                className="w-full py-2 text-violet-600 font-semibold group-hover:text-violet-700 transition-colors duration-200"
+                onClick={() => setIsOpen(true)}
+              >
+                Details ➤
+              </button>
+              <div
+                className="absolute bottom-0 left-0 h-0.5 bg-violet-600 transition-all duration-300 ease-in-out"
+                style={{ width: isHovered ? "100%" : "0%" }}
+              ></div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     <SpringModal isOpen={isOpen} setIsOpen={setIsOpen} title={event.eventName} desc={event.description} date={event.date} st={event.startTime} et={event.endTime} cb={event.clubName} logo={event.logo} register={event.reglink}/>
     </>
   );
